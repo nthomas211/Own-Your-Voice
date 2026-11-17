@@ -21,3 +21,14 @@ venv/
 # API credentials
 *.pem
 *.key
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local IDE settings
+.vscode/
+.idea/

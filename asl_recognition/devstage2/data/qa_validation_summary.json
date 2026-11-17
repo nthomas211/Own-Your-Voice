@@ -1,0 +1,251 @@
+{
+  "clips_checked": 10304,
+  "extraction_failures": 0,
+  "failure_reasons": [],
+  "status": {
+    "good": 9670,
+    "warn": 627,
+    "bad": 7
+  },
+  "status_pct": {
+    "good": 93.85,
+    "warn": 6.09,
+    "bad": 0.07
+  },
+  "flags": {
+    "few_hands": 314,
+    "jittery_hands": 167,
+    "hands_crossed_or_swapped": 161,
+    "no_hands": 7
+  },
+  "distributions": {
+    "frames": {
+      "p1": 43.0,
+      "p5": 49.0,
+      "p25": 60.0,
+      "p50": 74.0,
+      "p75": 117.0,
+      "p95": 153.0
+    },
+    "hand_frac": {
+      "p1": 0.186,
+      "p5": 0.282,
+      "p25": 0.389,
+      "p50": 0.455,
+      "p75": 0.523,
+      "p95": 0.638
+    },
+    "face_frac": {
+      "p1": 0.982,
+      "p5": 1.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0
+    },
+    "nose_frac": {
+      "p1": 0.988,
+      "p5": 1.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0
+    },
+    "slotL_frac": {
+      "p1": 0.0,
+      "p5": 0.0,
+      "p25": 0.305,
+      "p50": 0.392,
+      "p75": 0.46,
+      "p95": 0.552
+    },
+    "slotR_frac": {
+      "p1": 0.0,
+      "p5": 0.0,
+      "p25": 0.052,
+      "p50": 0.319,
+      "p75": 0.435,
+      "p95": 0.588
+    },
+    "hand_jump_frac": {
+      "p1": 0.0,
+      "p5": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.05
+    },
+    "crossed_frac": {
+      "p1": 0.0,
+      "p5": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.035
+    }
+  },
+  "worst_signers": [
+    {
+      "key": "P26",
+      "clips": 2999,
+      "bad_pct": 0.2,
+      "warn_pct": 7.0,
+      "mean_hand_frac": 0.466
+    },
+    {
+      "key": "P13",
+      "clips": 2,
+      "bad_pct": 0.0,
+      "warn_pct": 50.0,
+      "mean_hand_frac": 0.289
+    },
+    {
+      "key": "P39",
+      "clips": 3000,
+      "bad_pct": 0.0,
+      "warn_pct": 8.8,
+      "mean_hand_frac": 0.382
+    },
+    {
+      "key": "P5",
+      "clips": 609,
+      "bad_pct": 0.0,
+      "warn_pct": 4.4,
+      "mean_hand_frac": 0.434
+    },
+    {
+      "key": "P12",
+      "clips": 697,
+      "bad_pct": 0.0,
+      "warn_pct": 3.6,
+      "mean_hand_frac": 0.557
+    },
+    {
+      "key": "P21",
+      "clips": 2997,
+      "bad_pct": 0.0,
+      "warn_pct": 3.3,
+      "mean_hand_frac": 0.505
+    }
+  ],
+  "worst_glosses": [
+    {
+      "key": "BACKPACK2",
+      "clips": 3,
+      "bad_pct": 33.3,
+      "warn_pct": 0.0,
+      "mean_hand_frac": 0.266
+    },
+    {
+      "key": "FRIENDSNOMORE1",
+      "clips": 3,
+      "bad_pct": 33.3,
+      "warn_pct": 0.0,
+      "mean_hand_frac": 0.275
+    },
+    {
+      "key": "HIT2",
+      "clips": 3,
+      "bad_pct": 33.3,
+      "warn_pct": 0.0,
+      "mean_hand_frac": 0.286
+    },
+    {
+      "key": "KNIGHT2",
+      "clips": 4,
+      "bad_pct": 25.0,
+      "warn_pct": 0.0,
+      "mean_hand_frac": 0.35
+    },
+    {
+      "key": "WEEKEND",
+      "clips": 4,
+      "bad_pct": 25.0,
+      "warn_pct": 0.0,
+      "mean_hand_frac": 0.353
+    },
+    {
+      "key": "TASTE",
+      "clips": 4,
+      "bad_pct": 25.0,
+      "warn_pct": 0.0,
+      "mean_hand_frac": 0.355
+    },
+    {
+      "key": "REMIND",
+      "clips": 4,
+      "bad_pct": 25.0,
+      "warn_pct": 0.0,
+      "mean_hand_frac": 0.38
+    },
+    {
+      "key": "EMPEROR",
+      "clips": 4,
+      "bad_pct": 0.0,
+      "warn_pct": 100.0,
+      "mean_hand_frac": 0.146
+    },
+    {
+      "key": "QUEEN",
+      "clips": 4,
+      "bad_pct": 0.0,
+      "warn_pct": 100.0,
+      "mean_hand_frac": 0.203
+    },
+    {
+      "key": "TOSSOUT",
+      "clips": 3,
+      "bad_pct": 0.0,
+      "warn_pct": 100.0,
+      "mean_hand_frac": 0.327
+    },
+    {
+      "key": "BAG2",
+      "clips": 4,
+      "bad_pct": 0.0,
+      "warn_pct": 100.0,
+      "mean_hand_frac": 0.452
+    },
+    {
+      "key": "CRACKER2",
+      "clips": 3,
+      "bad_pct": 0.0,
+      "warn_pct": 100.0,
+      "mean_hand_frac": 0.463
+    },
+    {
+      "key": "BASKET2",
+      "clips": 3,
+      "bad_pct": 0.0,
+      "warn_pct": 100.0,
+      "mean_hand_frac": 0.498
+    },
+    {
+      "key": "ARM3",
+      "clips": 3,
+      "bad_pct": 0.0,
+      "warn_pct": 100.0,
+      "mean_hand_frac": 0.528
+    },
+    {
+      "key": "JUMPROPE",
+      "clips": 5,
+      "bad_pct": 0.0,
+      "warn_pct": 80.0,
+      "mean_hand_frac": 0.367
+    }
+  ],
+  "signers": 6,
+  "glosses": 2731,
+  "manifest_lines": 10304,
+  "thresholds": {
+    "min_hand_frac": 0.25,
+    "min_face_frac": 0.5,
+    "max_jump_frac": 0.1,
+    "jump_dist": 0.15,
+    "max_crossed_frac": 0.5,
+    "max_out_of_range": 0.05,
+    "min_frames": 10,
+    "max_frames": 600
+  }
+}

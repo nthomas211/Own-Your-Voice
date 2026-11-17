@@ -1,0 +1,223 @@
+{
+  "best_validation_wer": 0.46554149085794655,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 9.060176206588745,
+      "val_loss": 3.7037037086486815,
+      "val_wer": 1.0,
+      "val_sentence_accuracy": 0.0
+    },
+    {
+      "epoch": 2,
+      "train_loss": 3.0625074787139894,
+      "val_loss": 3.0639704513549804,
+      "val_wer": 0.9957805907172996,
+      "val_sentence_accuracy": 0.0
+    },
+    {
+      "epoch": 3,
+      "train_loss": 2.2484071025848387,
+      "val_loss": 2.7446032047271727,
+      "val_wer": 0.9163150492264416,
+      "val_sentence_accuracy": 0.0
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.6870974779129029,
+      "val_loss": 2.485232892036438,
+      "val_wer": 0.7756680731364276,
+      "val_sentence_accuracy": 0.01
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.2191730184555054,
+      "val_loss": 2.455442190170288,
+      "val_wer": 0.6631504922644164,
+      "val_sentence_accuracy": 0.0225
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.9155689010620117,
+      "val_loss": 2.12836941242218,
+      "val_wer": 0.5527426160337553,
+      "val_sentence_accuracy": 0.0625
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.7332712304592133,
+      "val_loss": 2.0867479133605955,
+      "val_wer": 0.5323488045007032,
+      "val_sentence_accuracy": 0.08
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.5704117112159729,
+      "val_loss": 2.3187674045562745,
+      "val_wer": 0.5836849507735584,
+      "val_sentence_accuracy": 0.0675
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.4658168504238129,
+      "val_loss": 2.061888647079468,
+      "val_wer": 0.5457102672292545,
+      "val_sentence_accuracy": 0.0775
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.4070056883096695,
+      "val_loss": 2.232031407356262,
+      "val_wer": 0.5428973277074542,
+      "val_sentence_accuracy": 0.065
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.35796306836605074,
+      "val_loss": 2.2249219942092897,
+      "val_wer": 0.5421940928270043,
+      "val_sentence_accuracy": 0.0775
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.3104470075070858,
+      "val_loss": 2.3719568061828613,
+      "val_wer": 0.5618846694796061,
+      "val_sentence_accuracy": 0.0825
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.28681317281723023,
+      "val_loss": 2.2700355195999147,
+      "val_wer": 0.5421940928270043,
+      "val_sentence_accuracy": 0.0975
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.28333882796764376,
+      "val_loss": 2.375654516220093,
+      "val_wer": 0.5485232067510548,
+      "val_sentence_accuracy": 0.1025
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.24379809880256653,
+      "val_loss": 2.2527114820480345,
+      "val_wer": 0.5260196905766527,
+      "val_sentence_accuracy": 0.0775
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.22411174061894418,
+      "val_loss": 2.44262086391449,
+      "val_wer": 0.5218002812939522,
+      "val_sentence_accuracy": 0.08
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.21621437162160873,
+      "val_loss": 2.3069718170166014,
+      "val_wer": 0.49226441631504925,
+      "val_sentence_accuracy": 0.1125
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.19799632835388184,
+      "val_loss": 2.3696587562561033,
+      "val_wer": 0.530239099859353,
+      "val_sentence_accuracy": 0.0875
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.19362277886271476,
+      "val_loss": 2.417303857803345,
+      "val_wer": 0.510548523206751,
+      "val_sentence_accuracy": 0.0975
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.18234119260311127,
+      "val_loss": 2.3633062124252318,
+      "val_wer": 0.510548523206751,
+      "val_sentence_accuracy": 0.0975
+    },
+    {
+      "epoch": 21,
+      "train_loss": 0.16079173767566682,
+      "val_loss": 2.4367702436447143,
+      "val_wer": 0.5450070323488045,
+      "val_sentence_accuracy": 0.1025
+    },
+    {
+      "epoch": 22,
+      "train_loss": 0.16076722711324692,
+      "val_loss": 2.348604860305786,
+      "val_wer": 0.5154711673699015,
+      "val_sentence_accuracy": 0.095
+    },
+    {
+      "epoch": 23,
+      "train_loss": 0.1620792494416237,
+      "val_loss": 2.3203221797943114,
+      "val_wer": 0.46554149085794655,
+      "val_sentence_accuracy": 0.1425
+    },
+    {
+      "epoch": 24,
+      "train_loss": 0.16333852235972882,
+      "val_loss": 2.5529046964645388,
+      "val_wer": 0.5154711673699015,
+      "val_sentence_accuracy": 0.1125
+    },
+    {
+      "epoch": 25,
+      "train_loss": 0.15856699988245965,
+      "val_loss": 2.4816334724426268,
+      "val_wer": 0.47538677918424754,
+      "val_sentence_accuracy": 0.1175
+    }
+  ],
+  "train_bank": {
+    "clips": 481,
+    "glosses": 32,
+    "signers": 29,
+    "frames": 39892
+  },
+  "validation_bank": {
+    "clips": 119,
+    "glosses": 32,
+    "signers": 5,
+    "frames": 9731
+  },
+  "args": {
+    "train_dir": "C:\\Users\\juliu\\Documents\\Computer VisionASL_Files\\Computer Vision ASL Recognition Files\\Dev_Stage1_project-backup-2026-10-04\\data\\asl_citizen\\keypoints\\train",
+    "validation_dir": "C:\\Users\\juliu\\Documents\\Computer VisionASL_Files\\Computer Vision ASL Recognition Files\\Dev_Stage1_project-backup-2026-10-04\\data\\asl_citizen\\keypoints\\validation",
+    "glosses": "C:\\Users\\juliu\\Documents\\Computer VisionASL_Files\\Computer Vision ASL Recognition Files\\Dev_Stage1_project-backup-2026-10-04\\experiments\\2026-11-13_vocab32\\glosses.txt",
+    "max_glosses": "None",
+    "corpus": "C:\\Users\\juliu\\Documents\\Computer VisionASL_Files\\Computer Vision ASL Recognition Files\\Dev_Stage1_project-backup-2026-10-04\\experiments\\2026-11-13_vocab32\\sentences.jsonl",
+    "corpus_probability": "0.5",
+    "init_from": "None",
+    "output_dir": "C:\\Users\\juliu\\Documents\\Computer VisionASL_Files\\Computer Vision ASL Recognition Files\\Dev_Stage1_project-backup-2026-10-04\\data\\asl_citizen\\runs\\2026-11-13_vocab32\\ctc_scratch",
+    "train_sentences": "2000",
+    "validation_sentences": "400",
+    "min_length": "2",
+    "max_length": "5",
+    "speed_min": "0.8",
+    "speed_max": "1.25",
+    "transition_min": "4",
+    "transition_max": "12",
+    "epochs": "25",
+    "patience": "8",
+    "batch_size": "16",
+    "learning_rate": "0.0003",
+    "hidden_size": "128",
+    "attention_heads": "4",
+    "transformer_layers": "4",
+    "dropout": "0.1",
+    "amplitude_jitter": "0.05",
+    "frame_dropout": "0.05",
+    "workers": "4",
+    "device": "cuda",
+    "seed": "42"
+  }
+}

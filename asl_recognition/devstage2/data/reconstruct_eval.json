@@ -1,0 +1,2192 @@
+{
+  "summary": {
+    "model": "claude-opus-5-5",
+    "decodes": 50,
+    "instances_per_sentence": 5,
+    "wer_literal": 0.1556,
+    "wer_best_guess": 0.1,
+    "meaning_literal": {
+      "same": 33,
+      "partial": 13,
+      "different": 4
+    },
+    "meaning_best_guess": {
+      "same": 34,
+      "partial": 12,
+      "different": 4
+    },
+    "decodes_missing_signs": 23,
+    "gap_flagged_decodes": 27,
+    "gap_flags_on_decodes_missing_signs": 15,
+    "gap_flags_on_complete_decodes": 12,
+    "decodes_with_inferred_words": 17,
+    "errors": 0,
+    "rejected_inferences": 0,
+    "usd_this_run": 0.5564
+  },
+  "rows": [
+    {
+      "id": "S01",
+      "instance": 0,
+      "reference": [
+        "HELLO",
+        "NICE",
+        "MEET",
+        "YOU"
+      ],
+      "reference_english": "Hello, nice to meet you.",
+      "literal_glosses": [
+        "HELLO",
+        "NICE",
+        "MEET"
+      ],
+      "best_guess_glosses": [
+        "HELLO",
+        "NICE",
+        "MEET",
+        "YOU"
+      ],
+      "english": "Hello, nice to meet.",
+      "english_best_guess": "Hello, nice to meet [you].",
+      "inferred": [
+        {
+          "after": 2,
+          "gloss": "YOU"
+        }
+      ],
+      "gaps": [
+        {
+          "after": 2,
+          "frames": 60,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 1,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 1,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 3.27,
+        "input_tokens": 1839,
+        "output_tokens": 113,
+        "usd": 0.00962
+      }
+    },
+    {
+      "id": "S01",
+      "instance": 1,
+      "reference": [
+        "HELLO",
+        "NICE",
+        "MEET",
+        "YOU"
+      ],
+      "reference_english": "Hello, nice to meet you.",
+      "literal_glosses": [
+        "HELLO",
+        "NICE",
+        "MEET",
+        "YOU"
+      ],
+      "best_guess_glosses": [
+        "HELLO",
+        "NICE",
+        "MEET",
+        "YOU"
+      ],
+      "english": "Hello, nice to meet you.",
+      "english_best_guess": "Hello, nice to meet you.",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.39,
+        "input_tokens": 1910,
+        "output_tokens": 100,
+        "usd": 0.00964
+      }
+    },
+    {
+      "id": "S01",
+      "instance": 2,
+      "reference": [
+        "HELLO",
+        "NICE",
+        "MEET",
+        "YOU"
+      ],
+      "reference_english": "Hello, nice to meet you.",
+      "literal_glosses": [
+        "HELLO",
+        "NICE",
+        "MEET"
+      ],
+      "best_guess_glosses": [
+        "HELLO",
+        "NICE",
+        "MEET",
+        "YOU"
+      ],
+      "english": "Hello, nice to meet.",
+      "english_best_guess": "Hello, nice to meet [you].",
+      "inferred": [
+        {
+          "after": 2,
+          "gloss": "YOU"
+        }
+      ],
+      "gaps": [
+        {
+          "after": 2,
+          "frames": 62,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 1,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 1,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.42,
+        "input_tokens": 1840,
+        "output_tokens": 113,
+        "usd": 0.00962
+      }
+    },
+    {
+      "id": "S01",
+      "instance": 3,
+      "reference": [
+        "HELLO",
+        "NICE",
+        "MEET",
+        "YOU"
+      ],
+      "reference_english": "Hello, nice to meet you.",
+      "literal_glosses": [
+        "HELLO",
+        "NICE",
+        "YOU"
+      ],
+      "best_guess_glosses": [
+        "HELLO",
+        "NICE",
+        "YOU"
+      ],
+      "english": "Hello, nice to see you.",
+      "english_best_guess": "Hello, nice to see you.",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 1,
+      "edits_best_guess": 1,
+      "verdict_literal": "partial",
+      "verdict_best_guess": "partial",
+      "signs_short": 1,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.17,
+        "input_tokens": 1799,
+        "output_tokens": 93,
+        "usd": 0.00906
+      }
+    },
+    {
+      "id": "S01",
+      "instance": 4,
+      "reference": [
+        "HELLO",
+        "NICE",
+        "MEET",
+        "YOU"
+      ],
+      "reference_english": "Hello, nice to meet you.",
+      "literal_glosses": [
+        "HELLO",
+        "NICE",
+        "MEET",
+        "YOU"
+      ],
+      "best_guess_glosses": [
+        "HELLO",
+        "NICE",
+        "MEET",
+        "YOU"
+      ],
+      "english": "Hello, nice to meet you.",
+      "english_best_guess": "Hello, nice to meet you.",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.35,
+        "input_tokens": 1910,
+        "output_tokens": 100,
+        "usd": 0.00964
+      }
+    },
+    {
+      "id": "S02",
+      "instance": 0,
+      "reference": [
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "reference_english": "I want to drink water.",
+      "literal_glosses": [
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "best_guess_glosses": [
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "english": "I want to drink water.",
+      "english_best_guess": "I want to drink water.",
+      "inferred": [],
+      "gaps": [
+        {
+          "after": 2,
+          "frames": 89,
+          "missing": 1
+        },
+        {
+          "after": 4,
+          "frames": 61,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.29,
+        "input_tokens": 2011,
+        "output_tokens": 93,
+        "usd": 0.0099
+      }
+    },
+    {
+      "id": "S02",
+      "instance": 1,
+      "reference": [
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "reference_english": "I want to drink water.",
+      "literal_glosses": [
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "best_guess_glosses": [
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "english": "Want to drink water.",
+      "english_best_guess": "[I] want to drink water.",
+      "inferred": [
+        {
+          "after": -1,
+          "gloss": "ME"
+        }
+      ],
+      "gaps": [
+        {
+          "after": -1,
+          "frames": 55,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 1,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 1,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.43,
+        "input_tokens": 1842,
+        "output_tokens": 108,
+        "usd": 0.00953
+      }
+    },
+    {
+      "id": "S02",
+      "instance": 2,
+      "reference": [
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "reference_english": "I want to drink water.",
+      "literal_glosses": [
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "best_guess_glosses": [
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "english": "I want to drink water.",
+      "english_best_guess": "I want to drink water.",
+      "inferred": [],
+      "gaps": [
+        {
+          "after": 2,
+          "frames": 101,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 1.85,
+        "input_tokens": 1962,
+        "output_tokens": 93,
+        "usd": 0.00971
+      }
+    },
+    {
+      "id": "S02",
+      "instance": 3,
+      "reference": [
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "reference_english": "I want to drink water.",
+      "literal_glosses": [
+        "WANT1",
+        "DRINK1"
+      ],
+      "best_guess_glosses": [
+        "WANT1",
+        "DRINK1"
+      ],
+      "english": "I want to drink.",
+      "english_best_guess": "I want to drink.",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 2,
+      "edits_best_guess": 2,
+      "verdict_literal": "partial",
+      "verdict_best_guess": "partial",
+      "signs_short": 2,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.31,
+        "input_tokens": 1746,
+        "output_tokens": 83,
+        "usd": 0.00864
+      }
+    },
+    {
+      "id": "S02",
+      "instance": 4,
+      "reference": [
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "reference_english": "I want to drink water.",
+      "literal_glosses": [
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "best_guess_glosses": [
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "english": "I want to drink water.",
+      "english_best_guess": "I want to drink water.",
+      "inferred": [],
+      "gaps": [
+        {
+          "after": 2,
+          "frames": 89,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 1.4,
+        "input_tokens": 1963,
+        "output_tokens": 93,
+        "usd": 0.00971
+      }
+    },
+    {
+      "id": "S03",
+      "instance": 0,
+      "reference": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "reference_english": "Tomorrow I am going to school.",
+      "literal_glosses": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "best_guess_glosses": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "english": "Tomorrow I am going to school.",
+      "english_best_guess": "Tomorrow I am going to school.",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.03,
+        "input_tokens": 1848,
+        "output_tokens": 104,
+        "usd": 0.00947
+      }
+    },
+    {
+      "id": "S03",
+      "instance": 1,
+      "reference": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "reference_english": "Tomorrow I am going to school.",
+      "literal_glosses": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "best_guess_glosses": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "english": "Tomorrow I am going to school.",
+      "english_best_guess": "Tomorrow I am going to school.",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.38,
+        "input_tokens": 1856,
+        "output_tokens": 104,
+        "usd": 0.0095
+      }
+    },
+    {
+      "id": "S03",
+      "instance": 2,
+      "reference": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "reference_english": "Tomorrow I am going to school.",
+      "literal_glosses": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "best_guess_glosses": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "english": "Tomorrow I go to school.",
+      "english_best_guess": "Tomorrow I go to school.",
+      "inferred": [],
+      "gaps": [
+        {
+          "after": 3,
+          "frames": 87,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.3,
+        "input_tokens": 1948,
+        "output_tokens": 103,
+        "usd": 0.00985
+      }
+    },
+    {
+      "id": "S03",
+      "instance": 3,
+      "reference": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "reference_english": "Tomorrow I am going to school.",
+      "literal_glosses": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "best_guess_glosses": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "english": "Tomorrow I am going to school.",
+      "english_best_guess": "Tomorrow I am going to school.",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.18,
+        "input_tokens": 1852,
+        "output_tokens": 105,
+        "usd": 0.00951
+      }
+    },
+    {
+      "id": "S03",
+      "instance": 4,
+      "reference": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "reference_english": "Tomorrow I am going to school.",
+      "literal_glosses": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "best_guess_glosses": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "english": "Tomorrow I am going to school.",
+      "english_best_guess": "Tomorrow I am going to school.",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.37,
+        "input_tokens": 1914,
+        "output_tokens": 105,
+        "usd": 0.00976
+      }
+    },
+    {
+      "id": "S04",
+      "instance": 0,
+      "reference": [
+        "YOU",
+        "LIKE",
+        "COFFEE"
+      ],
+      "reference_english": "Do you like coffee?",
+      "literal_glosses": [
+        "YOU",
+        "LIKE",
+        "COFFEE"
+      ],
+      "best_guess_glosses": [
+        "YOU",
+        "LIKE",
+        "COFFEE"
+      ],
+      "english": "Do you like coffee?",
+      "english_best_guess": "Do you like coffee?",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.26,
+        "input_tokens": 1856,
+        "output_tokens": 94,
+        "usd": 0.0093
+      }
+    },
+    {
+      "id": "S04",
+      "instance": 1,
+      "reference": [
+        "YOU",
+        "LIKE",
+        "COFFEE"
+      ],
+      "reference_english": "Do you like coffee?",
+      "literal_glosses": [
+        "LIKE",
+        "COFFEE"
+      ],
+      "best_guess_glosses": [
+        "LIKE",
+        "DRINK1",
+        "COFFEE"
+      ],
+      "english": "I like coffee.",
+      "english_best_guess": "I like [drinking] coffee.",
+      "inferred": [
+        {
+          "after": 0,
+          "gloss": "DRINK1"
+        }
+      ],
+      "gaps": [
+        {
+          "after": 0,
+          "frames": 81,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 1,
+      "edits_best_guess": 2,
+      "verdict_literal": "different",
+      "verdict_best_guess": "different",
+      "signs_short": 1,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.24,
+        "input_tokens": 1780,
+        "output_tokens": 107,
+        "usd": 0.00926
+      }
+    },
+    {
+      "id": "S04",
+      "instance": 2,
+      "reference": [
+        "YOU",
+        "LIKE",
+        "COFFEE"
+      ],
+      "reference_english": "Do you like coffee?",
+      "literal_glosses": [
+        "YOU",
+        "COFFEE"
+      ],
+      "best_guess_glosses": [
+        "YOU",
+        "WANT1",
+        "COFFEE"
+      ],
+      "english": "You, coffee?",
+      "english_best_guess": "Do you [want] coffee?",
+      "inferred": [
+        {
+          "after": 0,
+          "gloss": "WANT1"
+        }
+      ],
+      "gaps": [
+        {
+          "after": 0,
+          "frames": 109,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 1,
+      "edits_best_guess": 1,
+      "verdict_literal": "partial",
+      "verdict_best_guess": "partial",
+      "signs_short": 1,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.35,
+        "input_tokens": 1784,
+        "output_tokens": 105,
+        "usd": 0.00924
+      }
+    },
+    {
+      "id": "S04",
+      "instance": 3,
+      "reference": [
+        "YOU",
+        "LIKE",
+        "COFFEE"
+      ],
+      "reference_english": "Do you like coffee?",
+      "literal_glosses": [
+        "YOU",
+        "LIKE",
+        "COFFEE"
+      ],
+      "best_guess_glosses": [
+        "YOU",
+        "LIKE",
+        "COFFEE"
+      ],
+      "english": "Do you like coffee?",
+      "english_best_guess": "Do you like coffee?",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.27,
+        "input_tokens": 1800,
+        "output_tokens": 92,
+        "usd": 0.00904
+      }
+    },
+    {
+      "id": "S04",
+      "instance": 4,
+      "reference": [
+        "YOU",
+        "LIKE",
+        "COFFEE"
+      ],
+      "reference_english": "Do you like coffee?",
+      "literal_glosses": [
+        "YOU",
+        "LIKE",
+        "COFFEE"
+      ],
+      "best_guess_glosses": [
+        "YOU",
+        "LIKE",
+        "DRINK1",
+        "COFFEE"
+      ],
+      "english": "Do you like coffee?",
+      "english_best_guess": "Do you like [drinking] coffee?",
+      "inferred": [
+        {
+          "after": 1,
+          "gloss": "DRINK1"
+        }
+      ],
+      "gaps": [
+        {
+          "after": 1,
+          "frames": 80,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 0,
+      "edits_best_guess": 1,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.43,
+        "input_tokens": 1894,
+        "output_tokens": 117,
+        "usd": 0.00992
+      }
+    },
+    {
+      "id": "S05",
+      "instance": 0,
+      "reference": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "reference_english": "My mother is sick.",
+      "literal_glosses": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "best_guess_glosses": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "english": "My mother is sick.",
+      "english_best_guess": "My mother is sick.",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.26,
+        "input_tokens": 1799,
+        "output_tokens": 87,
+        "usd": 0.00894
+      }
+    },
+    {
+      "id": "S05",
+      "instance": 1,
+      "reference": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "reference_english": "My mother is sick.",
+      "literal_glosses": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "best_guess_glosses": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "english": "My mother is sick.",
+      "english_best_guess": "My mother is sick.",
+      "inferred": [],
+      "gaps": [
+        {
+          "after": 0,
+          "frames": 77,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.24,
+        "input_tokens": 1841,
+        "output_tokens": 87,
+        "usd": 0.0091
+      }
+    },
+    {
+      "id": "S05",
+      "instance": 2,
+      "reference": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "reference_english": "My mother is sick.",
+      "literal_glosses": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "best_guess_glosses": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "english": "My mother is sick.",
+      "english_best_guess": "My mother is sick.",
+      "inferred": [],
+      "gaps": [
+        {
+          "after": 0,
+          "frames": 80,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.21,
+        "input_tokens": 1838,
+        "output_tokens": 87,
+        "usd": 0.00909
+      }
+    },
+    {
+      "id": "S05",
+      "instance": 3,
+      "reference": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "reference_english": "My mother is sick.",
+      "literal_glosses": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "best_guess_glosses": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "english": "My mother is sick.",
+      "english_best_guess": "My mother is sick.",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.19,
+        "input_tokens": 1799,
+        "output_tokens": 87,
+        "usd": 0.00894
+      }
+    },
+    {
+      "id": "S05",
+      "instance": 4,
+      "reference": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "reference_english": "My mother is sick.",
+      "literal_glosses": [
+        "MY",
+        "SICK"
+      ],
+      "best_guess_glosses": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "english": "My ... is sick.",
+      "english_best_guess": "My [mother] is sick.",
+      "inferred": [
+        {
+          "after": 0,
+          "gloss": "MOTHER"
+        }
+      ],
+      "gaps": [
+        {
+          "after": 0,
+          "frames": 93,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 1,
+      "edits_best_guess": 0,
+      "verdict_literal": "partial",
+      "verdict_best_guess": "same",
+      "signs_short": 1,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.39,
+        "input_tokens": 1784,
+        "output_tokens": 102,
+        "usd": 0.00918
+      }
+    },
+    {
+      "id": "S06",
+      "instance": 0,
+      "reference": [
+        "ME",
+        "HUNGRY",
+        "WANT1",
+        "EAT1",
+        "PIZZA2"
+      ],
+      "reference_english": "I'm hungry; I want to eat pizza.",
+      "literal_glosses": [
+        "ME",
+        "WANT1",
+        "PIZZA2"
+      ],
+      "best_guess_glosses": [
+        "ME",
+        "WANT1",
+        "EAT1",
+        "PIZZA2"
+      ],
+      "english": "I want pizza.",
+      "english_best_guess": "I want [to] [eat] pizza.",
+      "inferred": [
+        {
+          "after": 1,
+          "gloss": "EAT1"
+        }
+      ],
+      "gaps": [
+        {
+          "after": 0,
+          "frames": 76,
+          "missing": 1
+        },
+        {
+          "after": 1,
+          "frames": 109,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 2,
+      "edits_best_guess": 1,
+      "verdict_literal": "partial",
+      "verdict_best_guess": "partial",
+      "signs_short": 2,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.46,
+        "input_tokens": 1897,
+        "output_tokens": 112,
+        "usd": 0.00983
+      }
+    },
+    {
+      "id": "S06",
+      "instance": 1,
+      "reference": [
+        "ME",
+        "HUNGRY",
+        "WANT1",
+        "EAT1",
+        "PIZZA2"
+      ],
+      "reference_english": "I'm hungry; I want to eat pizza.",
+      "literal_glosses": [
+        "ME",
+        "HUNGRY",
+        "WANT1",
+        "EAT1",
+        "PIZZA2"
+      ],
+      "best_guess_glosses": [
+        "ME",
+        "HUNGRY",
+        "WANT1",
+        "EAT1",
+        "PIZZA2"
+      ],
+      "english": "I'm hungry; I want to eat pizza.",
+      "english_best_guess": "I'm hungry; I want to eat pizza.",
+      "inferred": [],
+      "gaps": [
+        {
+          "after": 4,
+          "frames": 99,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.3,
+        "input_tokens": 2080,
+        "output_tokens": 122,
+        "usd": 0.01076
+      }
+    },
+    {
+      "id": "S06",
+      "instance": 2,
+      "reference": [
+        "ME",
+        "HUNGRY",
+        "WANT1",
+        "EAT1",
+        "PIZZA2"
+      ],
+      "reference_english": "I'm hungry; I want to eat pizza.",
+      "literal_glosses": [
+        "HUNGRY",
+        "WANT1",
+        "EAT1",
+        "PIZZA2"
+      ],
+      "best_guess_glosses": [
+        "ME",
+        "HUNGRY",
+        "WANT1",
+        "EAT1",
+        "PIZZA2"
+      ],
+      "english": "Hungry, want to eat pizza.",
+      "english_best_guess": "[I]'m hungry and want to eat pizza.",
+      "inferred": [
+        {
+          "after": -1,
+          "gloss": "ME"
+        }
+      ],
+      "gaps": [
+        {
+          "after": -1,
+          "frames": 63,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 1,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 1,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.51,
+        "input_tokens": 1905,
+        "output_tokens": 131,
+        "usd": 0.01024
+      }
+    },
+    {
+      "id": "S06",
+      "instance": 3,
+      "reference": [
+        "ME",
+        "HUNGRY",
+        "WANT1",
+        "EAT1",
+        "PIZZA2"
+      ],
+      "reference_english": "I'm hungry; I want to eat pizza.",
+      "literal_glosses": [
+        "ME",
+        "WANT1",
+        "PIZZA2"
+      ],
+      "best_guess_glosses": [
+        "ME",
+        "WANT1",
+        "EAT1",
+        "PIZZA2"
+      ],
+      "english": "I want pizza.",
+      "english_best_guess": "I want to [eat] pizza.",
+      "inferred": [
+        {
+          "after": 1,
+          "gloss": "EAT1"
+        }
+      ],
+      "gaps": [
+        {
+          "after": 1,
+          "frames": 109,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 2,
+      "edits_best_guess": 1,
+      "verdict_literal": "partial",
+      "verdict_best_guess": "partial",
+      "signs_short": 2,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.18,
+        "input_tokens": 1847,
+        "output_tokens": 110,
+        "usd": 0.00959
+      }
+    },
+    {
+      "id": "S06",
+      "instance": 4,
+      "reference": [
+        "ME",
+        "HUNGRY",
+        "WANT1",
+        "EAT1",
+        "PIZZA2"
+      ],
+      "reference_english": "I'm hungry; I want to eat pizza.",
+      "literal_glosses": [
+        "ME",
+        "WANT1",
+        "PIZZA2"
+      ],
+      "best_guess_glosses": [
+        "ME",
+        "WANT1",
+        "EAT1",
+        "PIZZA2"
+      ],
+      "english": "I want pizza.",
+      "english_best_guess": "I want to [eat] pizza.",
+      "inferred": [
+        {
+          "after": 1,
+          "gloss": "EAT1"
+        }
+      ],
+      "gaps": [
+        {
+          "after": 1,
+          "frames": 134,
+          "missing": 2
+        }
+      ],
+      "edits_literal": 2,
+      "edits_best_guess": 1,
+      "verdict_literal": "partial",
+      "verdict_best_guess": "partial",
+      "signs_short": 2,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.35,
+        "input_tokens": 1843,
+        "output_tokens": 110,
+        "usd": 0.00957
+      }
+    },
+    {
+      "id": "S07",
+      "instance": 0,
+      "reference": [
+        "BATHROOM",
+        "WHERE"
+      ],
+      "reference_english": "Where is the bathroom?",
+      "literal_glosses": [
+        "BATHROOM",
+        "WHERE"
+      ],
+      "best_guess_glosses": [
+        "BATHROOM",
+        "WHERE"
+      ],
+      "english": "Where is the bathroom?",
+      "english_best_guess": "Where is the bathroom?",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.22,
+        "input_tokens": 1741,
+        "output_tokens": 91,
+        "usd": 0.00878
+      }
+    },
+    {
+      "id": "S07",
+      "instance": 1,
+      "reference": [
+        "BATHROOM",
+        "WHERE"
+      ],
+      "reference_english": "Where is the bathroom?",
+      "literal_glosses": [
+        "BATHROOM"
+      ],
+      "best_guess_glosses": [
+        "BATHROOM"
+      ],
+      "english": "Bathroom.",
+      "english_best_guess": "Bathroom.",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 1,
+      "edits_best_guess": 1,
+      "verdict_literal": "partial",
+      "verdict_best_guess": "partial",
+      "signs_short": 1,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 1.86,
+        "input_tokens": 1680,
+        "output_tokens": 79,
+        "usd": 0.0083
+      }
+    },
+    {
+      "id": "S07",
+      "instance": 2,
+      "reference": [
+        "BATHROOM",
+        "WHERE"
+      ],
+      "reference_english": "Where is the bathroom?",
+      "literal_glosses": [
+        "BATHROOM",
+        "WHERE"
+      ],
+      "best_guess_glosses": [
+        "BATHROOM",
+        "WHERE"
+      ],
+      "english": "Where is the bathroom?",
+      "english_best_guess": "Where is the bathroom?",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.38,
+        "input_tokens": 1745,
+        "output_tokens": 91,
+        "usd": 0.0088
+      }
+    },
+    {
+      "id": "S07",
+      "instance": 3,
+      "reference": [
+        "BATHROOM",
+        "WHERE"
+      ],
+      "reference_english": "Where is the bathroom?",
+      "literal_glosses": [
+        "BATHROOM"
+      ],
+      "best_guess_glosses": [
+        "BATHROOM"
+      ],
+      "english": "Bathroom.",
+      "english_best_guess": "Bathroom.",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 1,
+      "edits_best_guess": 1,
+      "verdict_literal": "partial",
+      "verdict_best_guess": "partial",
+      "signs_short": 1,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.38,
+        "input_tokens": 1684,
+        "output_tokens": 79,
+        "usd": 0.00832
+      }
+    },
+    {
+      "id": "S07",
+      "instance": 4,
+      "reference": [
+        "BATHROOM",
+        "WHERE"
+      ],
+      "reference_english": "Where is the bathroom?",
+      "literal_glosses": [
+        "BATHROOM",
+        "WHERE"
+      ],
+      "best_guess_glosses": [
+        "BATHROOM",
+        "WHERE"
+      ],
+      "english": "Where is the bathroom?",
+      "english_best_guess": "Where is the bathroom?",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.33,
+        "input_tokens": 1740,
+        "output_tokens": 91,
+        "usd": 0.00878
+      }
+    },
+    {
+      "id": "S08",
+      "instance": 0,
+      "reference": [
+        "YESTERDAY",
+        "ME",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "reference_english": "Yesterday I watched a movie.",
+      "literal_glosses": [
+        "YESTERDAY",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "best_guess_glosses": [
+        "YESTERDAY",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "english": "Yesterday I watched a movie.",
+      "english_best_guess": "Yesterday I watched a movie.",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 1,
+      "edits_best_guess": 1,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 1,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.38,
+        "input_tokens": 1868,
+        "output_tokens": 106,
+        "usd": 0.00959
+      }
+    },
+    {
+      "id": "S08",
+      "instance": 1,
+      "reference": [
+        "YESTERDAY",
+        "ME",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "reference_english": "Yesterday I watched a movie.",
+      "literal_glosses": [
+        "YESTERDAY",
+        "ME",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "best_guess_glosses": [
+        "YESTERDAY",
+        "ME",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "english": "Yesterday I watched a movie.",
+      "english_best_guess": "Yesterday I watched a movie.",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.69,
+        "input_tokens": 1937,
+        "output_tokens": 109,
+        "usd": 0.00993
+      }
+    },
+    {
+      "id": "S08",
+      "instance": 2,
+      "reference": [
+        "YESTERDAY",
+        "ME",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "reference_english": "Yesterday I watched a movie.",
+      "literal_glosses": [
+        "YESTERDAY",
+        "ME",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "best_guess_glosses": [
+        "YESTERDAY",
+        "ME",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "english": "Yesterday I watched a movie.",
+      "english_best_guess": "Yesterday I watched a movie.",
+      "inferred": [],
+      "gaps": [
+        {
+          "after": 3,
+          "frames": 85,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 1.93,
+        "input_tokens": 1973,
+        "output_tokens": 108,
+        "usd": 0.01005
+      }
+    },
+    {
+      "id": "S08",
+      "instance": 3,
+      "reference": [
+        "YESTERDAY",
+        "ME",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "reference_english": "Yesterday I watched a movie.",
+      "literal_glosses": [
+        "YESTERDAY",
+        "ME",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "best_guess_glosses": [
+        "YESTERDAY",
+        "ME",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "english": "Yesterday I watched a movie.",
+      "english_best_guess": "Yesterday I watched a movie.",
+      "inferred": [],
+      "gaps": [
+        {
+          "after": 3,
+          "frames": 79,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.32,
+        "input_tokens": 1975,
+        "output_tokens": 108,
+        "usd": 0.01006
+      }
+    },
+    {
+      "id": "S08",
+      "instance": 4,
+      "reference": [
+        "YESTERDAY",
+        "ME",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "reference_english": "Yesterday I watched a movie.",
+      "literal_glosses": [
+        "YESTERDAY",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "best_guess_glosses": [
+        "YESTERDAY",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "english": "Yesterday I watched a movie.",
+      "english_best_guess": "Yesterday I watched a movie.",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 1,
+      "edits_best_guess": 1,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 1,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.08,
+        "input_tokens": 1875,
+        "output_tokens": 106,
+        "usd": 0.00962
+      }
+    },
+    {
+      "id": "S09",
+      "instance": 0,
+      "reference": [
+        "THANKYOU",
+        "HELP",
+        "ME"
+      ],
+      "reference_english": "Thank you for helping me.",
+      "literal_glosses": [
+        "THANKYOU",
+        "HELP",
+        "ME"
+      ],
+      "best_guess_glosses": [
+        "THANKYOU",
+        "HELP",
+        "ME"
+      ],
+      "english": "Thank you for helping me.",
+      "english_best_guess": "Thank you for helping me.",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.31,
+        "input_tokens": 1853,
+        "output_tokens": 93,
+        "usd": 0.00927
+      }
+    },
+    {
+      "id": "S09",
+      "instance": 1,
+      "reference": [
+        "THANKYOU",
+        "HELP",
+        "ME"
+      ],
+      "reference_english": "Thank you for helping me.",
+      "literal_glosses": [
+        "THANKYOU",
+        "HELP",
+        "ME"
+      ],
+      "best_guess_glosses": [
+        "THANKYOU",
+        "YOU",
+        "HELP",
+        "ME"
+      ],
+      "english": "Thank you for helping me.",
+      "english_best_guess": "Thank you, [you] helped me.",
+      "inferred": [
+        {
+          "after": 0,
+          "gloss": "YOU"
+        }
+      ],
+      "gaps": [
+        {
+          "after": 0,
+          "frames": 85,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 0,
+      "edits_best_guess": 1,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 1.83,
+        "input_tokens": 1893,
+        "output_tokens": 113,
+        "usd": 0.00983
+      }
+    },
+    {
+      "id": "S09",
+      "instance": 2,
+      "reference": [
+        "THANKYOU",
+        "HELP",
+        "ME"
+      ],
+      "reference_english": "Thank you for helping me.",
+      "literal_glosses": [
+        "HELP",
+        "ME"
+      ],
+      "best_guess_glosses": [
+        "HELP",
+        "ME"
+      ],
+      "english": "Help me.",
+      "english_best_guess": "Help me.",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 1,
+      "edits_best_guess": 1,
+      "verdict_literal": "different",
+      "verdict_best_guess": "different",
+      "signs_short": 1,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.23,
+        "input_tokens": 1799,
+        "output_tokens": 77,
+        "usd": 0.00874
+      }
+    },
+    {
+      "id": "S09",
+      "instance": 3,
+      "reference": [
+        "THANKYOU",
+        "HELP",
+        "ME"
+      ],
+      "reference_english": "Thank you for helping me.",
+      "literal_glosses": [
+        "HELP"
+      ],
+      "best_guess_glosses": [
+        "HELP",
+        "ME"
+      ],
+      "english": "Help.",
+      "english_best_guess": "Help [me].",
+      "inferred": [
+        {
+          "after": 1,
+          "gloss": "ME"
+        }
+      ],
+      "gaps": [
+        {
+          "after": 1,
+          "frames": 56,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 2,
+      "edits_best_guess": 1,
+      "verdict_literal": "different",
+      "verdict_best_guess": "different",
+      "signs_short": 2,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.42,
+        "input_tokens": 1784,
+        "output_tokens": 91,
+        "usd": 0.00896
+      }
+    },
+    {
+      "id": "S09",
+      "instance": 4,
+      "reference": [
+        "THANKYOU",
+        "HELP",
+        "ME"
+      ],
+      "reference_english": "Thank you for helping me.",
+      "literal_glosses": [
+        "HELP",
+        "ME"
+      ],
+      "best_guess_glosses": [
+        "HELP",
+        "ME"
+      ],
+      "english": "Help me.",
+      "english_best_guess": "Help me.",
+      "inferred": [],
+      "gaps": [],
+      "edits_literal": 1,
+      "edits_best_guess": 1,
+      "verdict_literal": "different",
+      "verdict_best_guess": "different",
+      "signs_short": 1,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 1.87,
+        "input_tokens": 1743,
+        "output_tokens": 75,
+        "usd": 0.00847
+      }
+    },
+    {
+      "id": "S10",
+      "instance": 0,
+      "reference": [
+        "MY",
+        "FRIEND",
+        "LEARN",
+        "SIGN"
+      ],
+      "reference_english": "My friend is learning sign language.",
+      "literal_glosses": [
+        "MY",
+        "FRIEND",
+        "LEARN",
+        "SIGN"
+      ],
+      "best_guess_glosses": [
+        "MY",
+        "FRIEND",
+        "LEARN",
+        "SIGN"
+      ],
+      "english": "My friend is learning to sign.",
+      "english_best_guess": "My friend is learning to sign.",
+      "inferred": [],
+      "gaps": [
+        {
+          "after": 0,
+          "frames": 96,
+          "missing": 1
+        },
+        {
+          "after": 2,
+          "frames": 76,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 0,
+      "edits_best_guess": 0,
+      "verdict_literal": "same",
+      "verdict_best_guess": "same",
+      "signs_short": 0,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.35,
+        "input_tokens": 1938,
+        "output_tokens": 99,
+        "usd": 0.00973
+      }
+    },
+    {
+      "id": "S10",
+      "instance": 1,
+      "reference": [
+        "MY",
+        "FRIEND",
+        "LEARN",
+        "SIGN"
+      ],
+      "reference_english": "My friend is learning sign language.",
+      "literal_glosses": [
+        "MY",
+        "FRIEND",
+        "SIGN"
+      ],
+      "best_guess_glosses": [
+        "MY",
+        "FRIEND",
+        "LEARN",
+        "SIGN"
+      ],
+      "english": "My friend signs.",
+      "english_best_guess": "My friend is [learning] sign.",
+      "inferred": [
+        {
+          "after": 1,
+          "gloss": "LEARN"
+        }
+      ],
+      "gaps": [
+        {
+          "after": 1,
+          "frames": 85,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 1,
+      "edits_best_guess": 0,
+      "verdict_literal": "partial",
+      "verdict_best_guess": "partial",
+      "signs_short": 1,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.34,
+        "input_tokens": 1840,
+        "output_tokens": 109,
+        "usd": 0.00954
+      }
+    },
+    {
+      "id": "S10",
+      "instance": 2,
+      "reference": [
+        "MY",
+        "FRIEND",
+        "LEARN",
+        "SIGN"
+      ],
+      "reference_english": "My friend is learning sign language.",
+      "literal_glosses": [
+        "MY",
+        "FRIEND",
+        "SIGN"
+      ],
+      "best_guess_glosses": [
+        "MY",
+        "FRIEND",
+        "LEARN",
+        "SIGN"
+      ],
+      "english": "My friend signs.",
+      "english_best_guess": "My friend [is learning] sign.",
+      "inferred": [
+        {
+          "after": 2,
+          "gloss": "LEARN"
+        }
+      ],
+      "gaps": [
+        {
+          "after": 2,
+          "frames": 78,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 1,
+      "edits_best_guess": 0,
+      "verdict_literal": "partial",
+      "verdict_best_guess": "partial",
+      "signs_short": 1,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 1.97,
+        "input_tokens": 1910,
+        "output_tokens": 111,
+        "usd": 0.00986
+      }
+    },
+    {
+      "id": "S10",
+      "instance": 3,
+      "reference": [
+        "MY",
+        "FRIEND",
+        "LEARN",
+        "SIGN"
+      ],
+      "reference_english": "My friend is learning sign language.",
+      "literal_glosses": [
+        "MY",
+        "FRIEND",
+        "SIGN"
+      ],
+      "best_guess_glosses": [
+        "MY",
+        "FRIEND",
+        "LEARN",
+        "SIGN"
+      ],
+      "english": "My friend signs.",
+      "english_best_guess": "My friend [is] [learning] sign.",
+      "inferred": [
+        {
+          "after": 1,
+          "gloss": "LEARN"
+        }
+      ],
+      "gaps": [
+        {
+          "after": 1,
+          "frames": 86,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 1,
+      "edits_best_guess": 0,
+      "verdict_literal": "partial",
+      "verdict_best_guess": "partial",
+      "signs_short": 1,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.49,
+        "input_tokens": 1841,
+        "output_tokens": 111,
+        "usd": 0.00958
+      }
+    },
+    {
+      "id": "S10",
+      "instance": 4,
+      "reference": [
+        "MY",
+        "FRIEND",
+        "LEARN",
+        "SIGN"
+      ],
+      "reference_english": "My friend is learning sign language.",
+      "literal_glosses": [
+        "MY",
+        "FRIEND",
+        "SIGN"
+      ],
+      "best_guess_glosses": [
+        "MY",
+        "FRIEND",
+        "LEARN",
+        "SIGN"
+      ],
+      "english": "My friend signs.",
+      "english_best_guess": "My friend [is learning] sign.",
+      "inferred": [
+        {
+          "after": 1,
+          "gloss": "LEARN"
+        }
+      ],
+      "gaps": [
+        {
+          "after": 1,
+          "frames": 80,
+          "missing": 1
+        }
+      ],
+      "edits_literal": 1,
+      "edits_best_guess": 0,
+      "verdict_literal": "partial",
+      "verdict_best_guess": "partial",
+      "signs_short": 1,
+      "warnings": [],
+      "error": null,
+      "usage": {
+        "seconds": 2.4,
+        "input_tokens": 1842,
+        "output_tokens": 109,
+        "usd": 0.00955
+      }
+    }
+  ]
+}

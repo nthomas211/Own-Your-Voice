@@ -1,0 +1,5489 @@
+{
+  "summary": {
+    "model": "claude-opus-5-5",
+    "ctc_checkpoint": "data\\asl_citizen\\runs\\2026-11-13_vocab32\\ctc_init\\best_ctc_model.pt",
+    "instances_per_sentence": 5,
+    "sentences": 10,
+    "decodes": 50,
+    "top1": {
+      "wer": 0.2667,
+      "exact_match": 0.24
+    },
+    "llm": {
+      "wer": 0.1556,
+      "exact_match": 0.54
+    },
+    "llm_errors": 0,
+    "new_api_calls_this_run": 50,
+    "usd_this_run": 0.2837,
+    "per_call": {
+      "seconds": 2.2,
+      "input_tokens": 1096.3,
+      "output_tokens": 64.4,
+      "usd": 0.0057
+    }
+  },
+  "rows": [
+    {
+      "id": "S01",
+      "instance": 0,
+      "reference": [
+        "HELLO",
+        "NICE",
+        "MEET",
+        "YOU"
+      ],
+      "reference_english": "Hello, nice to meet you.",
+      "top1": [
+        "HELLO",
+        "NICE",
+        "MEET"
+      ],
+      "llm": [
+        "HELLO",
+        "NICE",
+        "MEET"
+      ],
+      "english": "Hello, nice to meet you.",
+      "edits_top1": 1,
+      "edits_llm": 1,
+      "candidates": [
+        [
+          [
+            "HELLO",
+            0.973
+          ],
+          [
+            "MOTHER",
+            0.01
+          ],
+          [
+            "NICE",
+            0.005
+          ],
+          [
+            "SICK",
+            0.003
+          ],
+          [
+            "LEARN",
+            0.002
+          ]
+        ],
+        [
+          [
+            "NICE",
+            0.992
+          ],
+          [
+            "SCHOOL",
+            0.002
+          ],
+          [
+            "LEARN",
+            0.001
+          ],
+          [
+            "HELP",
+            0.001
+          ],
+          [
+            "HELLO",
+            0.001
+          ]
+        ],
+        [
+          [
+            "MEET",
+            0.997
+          ],
+          [
+            "YOU",
+            0.001
+          ],
+          [
+            "FRIEND",
+            0.0
+          ],
+          [
+            "GO",
+            0.0
+          ],
+          [
+            "TOMORROW",
+            0.0
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 2.29,
+        "input_tokens": 1064,
+        "output_tokens": 64,
+        "usd": 0.00554
+      },
+      "error": null
+    },
+    {
+      "id": "S01",
+      "instance": 1,
+      "reference": [
+        "HELLO",
+        "NICE",
+        "MEET",
+        "YOU"
+      ],
+      "reference_english": "Hello, nice to meet you.",
+      "top1": [
+        "HELLO",
+        "NICE",
+        "NICE",
+        "MEET",
+        "YOU"
+      ],
+      "llm": [
+        "HELLO",
+        "NICE",
+        "MEET",
+        "YOU"
+      ],
+      "english": "Hello, nice to meet you.",
+      "edits_top1": 1,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "HELLO",
+            0.981
+          ],
+          [
+            "NICE",
+            0.005
+          ],
+          [
+            "MOTHER",
+            0.005
+          ],
+          [
+            "SICK",
+            0.002
+          ],
+          [
+            "SIGN",
+            0.001
+          ]
+        ],
+        [
+          [
+            "NICE",
+            0.994
+          ],
+          [
+            "SCHOOL",
+            0.002
+          ],
+          [
+            "HELLO",
+            0.001
+          ],
+          [
+            "LEARN",
+            0.0
+          ],
+          [
+            "MOVIE1",
+            0.0
+          ]
+        ],
+        [
+          [
+            "NICE",
+            0.991
+          ],
+          [
+            "SCHOOL",
+            0.002
+          ],
+          [
+            "LEARN",
+            0.001
+          ],
+          [
+            "HELLO",
+            0.001
+          ],
+          [
+            "SIGN",
+            0.001
+          ]
+        ],
+        [
+          [
+            "MEET",
+            0.996
+          ],
+          [
+            "YOU",
+            0.001
+          ],
+          [
+            "GO",
+            0.001
+          ],
+          [
+            "WANT1",
+            0.0
+          ],
+          [
+            "WATER",
+            0.0
+          ]
+        ],
+        [
+          [
+            "YOU",
+            0.992
+          ],
+          [
+            "MEET",
+            0.003
+          ],
+          [
+            "WATER",
+            0.001
+          ],
+          [
+            "LEARN",
+            0.001
+          ],
+          [
+            "COFFEE",
+            0.0
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.89,
+        "input_tokens": 1178,
+        "output_tokens": 69,
+        "usd": 0.00609
+      },
+      "error": null
+    },
+    {
+      "id": "S01",
+      "instance": 2,
+      "reference": [
+        "HELLO",
+        "NICE",
+        "MEET",
+        "YOU"
+      ],
+      "reference_english": "Hello, nice to meet you.",
+      "top1": [
+        "HELLO",
+        "NICE",
+        "MEET"
+      ],
+      "llm": [
+        "HELLO",
+        "NICE",
+        "MEET"
+      ],
+      "english": "Hello, nice to meet you.",
+      "edits_top1": 1,
+      "edits_llm": 1,
+      "candidates": [
+        [
+          [
+            "HELLO",
+            0.991
+          ],
+          [
+            "NICE",
+            0.004
+          ],
+          [
+            "MOTHER",
+            0.001
+          ],
+          [
+            "SICK",
+            0.001
+          ],
+          [
+            "THANKYOU",
+            0.0
+          ]
+        ],
+        [
+          [
+            "NICE",
+            0.996
+          ],
+          [
+            "SCHOOL",
+            0.001
+          ],
+          [
+            "HELLO",
+            0.0
+          ],
+          [
+            "LEARN",
+            0.0
+          ],
+          [
+            "FRIEND",
+            0.0
+          ]
+        ],
+        [
+          [
+            "MEET",
+            0.998
+          ],
+          [
+            "YOU",
+            0.0
+          ],
+          [
+            "FRIEND",
+            0.0
+          ],
+          [
+            "WATER",
+            0.0
+          ],
+          [
+            "GO",
+            0.0
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.67,
+        "input_tokens": 1065,
+        "output_tokens": 64,
+        "usd": 0.00554
+      },
+      "error": null
+    },
+    {
+      "id": "S01",
+      "instance": 3,
+      "reference": [
+        "HELLO",
+        "NICE",
+        "MEET",
+        "YOU"
+      ],
+      "reference_english": "Hello, nice to meet you.",
+      "top1": [
+        "HELLO",
+        "NICE",
+        "YOU"
+      ],
+      "llm": [
+        "HELLO",
+        "NICE",
+        "YOU"
+      ],
+      "english": "Hello, nice to meet you.",
+      "edits_top1": 1,
+      "edits_llm": 1,
+      "candidates": [
+        [
+          [
+            "HELLO",
+            0.995
+          ],
+          [
+            "SICK",
+            0.001
+          ],
+          [
+            "NICE",
+            0.001
+          ],
+          [
+            "DRINK1",
+            0.0
+          ],
+          [
+            "MOTHER",
+            0.0
+          ]
+        ],
+        [
+          [
+            "NICE",
+            0.998
+          ],
+          [
+            "SCHOOL",
+            0.0
+          ],
+          [
+            "HELLO",
+            0.0
+          ],
+          [
+            "HELP",
+            0.0
+          ],
+          [
+            "LEARN",
+            0.0
+          ]
+        ],
+        [
+          [
+            "YOU",
+            0.995
+          ],
+          [
+            "LEARN",
+            0.002
+          ],
+          [
+            "WHERE",
+            0.001
+          ],
+          [
+            "WATCH",
+            0.0
+          ],
+          [
+            "TOMORROW",
+            0.0
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.9,
+        "input_tokens": 1067,
+        "output_tokens": 64,
+        "usd": 0.00555
+      },
+      "error": null
+    },
+    {
+      "id": "S01",
+      "instance": 4,
+      "reference": [
+        "HELLO",
+        "NICE",
+        "MEET",
+        "YOU"
+      ],
+      "reference_english": "Hello, nice to meet you.",
+      "top1": [
+        "HELLO",
+        "HELLO",
+        "NICE",
+        "MEET",
+        "YOU"
+      ],
+      "llm": [
+        "HELLO",
+        "NICE",
+        "MEET",
+        "YOU"
+      ],
+      "english": "Hello, nice to meet you.",
+      "edits_top1": 1,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "HELLO",
+            0.992
+          ],
+          [
+            "NICE",
+            0.003
+          ],
+          [
+            "DRINK1",
+            0.001
+          ],
+          [
+            "LEARN",
+            0.001
+          ],
+          [
+            "MOTHER",
+            0.0
+          ]
+        ],
+        [
+          [
+            "HELLO",
+            0.823
+          ],
+          [
+            "NICE",
+            0.075
+          ],
+          [
+            "MOTHER",
+            0.053
+          ],
+          [
+            "WATER",
+            0.014
+          ],
+          [
+            "DRINK1",
+            0.007
+          ]
+        ],
+        [
+          [
+            "NICE",
+            0.992
+          ],
+          [
+            "HELLO",
+            0.002
+          ],
+          [
+            "THANKYOU",
+            0.002
+          ],
+          [
+            "LIKE",
+            0.001
+          ],
+          [
+            "HELP",
+            0.001
+          ]
+        ],
+        [
+          [
+            "MEET",
+            0.994
+          ],
+          [
+            "YOU",
+            0.003
+          ],
+          [
+            "WATCH",
+            0.001
+          ],
+          [
+            "HELP",
+            0.0
+          ],
+          [
+            "COFFEE",
+            0.0
+          ]
+        ],
+        [
+          [
+            "YOU",
+            0.993
+          ],
+          [
+            "COFFEE",
+            0.003
+          ],
+          [
+            "MEET",
+            0.001
+          ],
+          [
+            "LEARN",
+            0.001
+          ],
+          [
+            "ME",
+            0.0
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.94,
+        "input_tokens": 1178,
+        "output_tokens": 69,
+        "usd": 0.00609
+      },
+      "error": null
+    },
+    {
+      "id": "S02",
+      "instance": 0,
+      "reference": [
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "reference_english": "I want to drink water.",
+      "top1": [
+        "ME",
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "llm": [
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "english": "I want to drink water.",
+      "edits_top1": 1,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "ME",
+            0.999
+          ],
+          [
+            "YOU",
+            0.0
+          ],
+          [
+            "DRINK1",
+            0.0
+          ],
+          [
+            "LEARN",
+            0.0
+          ],
+          [
+            "WANT1",
+            0.0
+          ]
+        ],
+        [
+          [
+            "ME",
+            0.998
+          ],
+          [
+            "TOMORROW",
+            0.001
+          ],
+          [
+            "HUNGRY",
+            0.0
+          ],
+          [
+            "YOU",
+            0.0
+          ],
+          [
+            "WANT1",
+            0.0
+          ]
+        ],
+        [
+          [
+            "WANT1",
+            0.995
+          ],
+          [
+            "HUNGRY",
+            0.001
+          ],
+          [
+            "TOMORROW",
+            0.0
+          ],
+          [
+            "SCHOOL",
+            0.0
+          ],
+          [
+            "ME",
+            0.0
+          ]
+        ],
+        [
+          [
+            "DRINK1",
+            0.994
+          ],
+          [
+            "GO",
+            0.002
+          ],
+          [
+            "HELLO",
+            0.001
+          ],
+          [
+            "MOTHER",
+            0.0
+          ],
+          [
+            "WATER",
+            0.0
+          ]
+        ],
+        [
+          [
+            "WATER",
+            0.994
+          ],
+          [
+            "MEET",
+            0.002
+          ],
+          [
+            "MOVIE1",
+            0.001
+          ],
+          [
+            "NICE",
+            0.001
+          ],
+          [
+            "MOTHER",
+            0.0
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.98,
+        "input_tokens": 1184,
+        "output_tokens": 66,
+        "usd": 0.00606
+      },
+      "error": null
+    },
+    {
+      "id": "S02",
+      "instance": 1,
+      "reference": [
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "reference_english": "I want to drink water.",
+      "top1": [
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "llm": [
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "english": "I want to drink water.",
+      "edits_top1": 1,
+      "edits_llm": 1,
+      "candidates": [
+        [
+          [
+            "WANT1",
+            0.992
+          ],
+          [
+            "THANKYOU",
+            0.002
+          ],
+          [
+            "HELP",
+            0.001
+          ],
+          [
+            "HUNGRY",
+            0.001
+          ],
+          [
+            "NICE",
+            0.001
+          ]
+        ],
+        [
+          [
+            "DRINK1",
+            0.99
+          ],
+          [
+            "WATER",
+            0.004
+          ],
+          [
+            "YOU",
+            0.001
+          ],
+          [
+            "ME",
+            0.001
+          ],
+          [
+            "PIZZA2",
+            0.001
+          ]
+        ],
+        [
+          [
+            "WATER",
+            0.996
+          ],
+          [
+            "MOVIE1",
+            0.001
+          ],
+          [
+            "NICE",
+            0.0
+          ],
+          [
+            "MEET",
+            0.0
+          ],
+          [
+            "DRINK1",
+            0.0
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.88,
+        "input_tokens": 1067,
+        "output_tokens": 62,
+        "usd": 0.00551
+      },
+      "error": null
+    },
+    {
+      "id": "S02",
+      "instance": 2,
+      "reference": [
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "reference_english": "I want to drink water.",
+      "top1": [
+        "ME",
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "llm": [
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "english": "I want to drink water.",
+      "edits_top1": 1,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "ME",
+            0.996
+          ],
+          [
+            "YOU",
+            0.002
+          ],
+          [
+            "HUNGRY",
+            0.0
+          ],
+          [
+            "TOMORROW",
+            0.0
+          ],
+          [
+            "DRINK1",
+            0.0
+          ]
+        ],
+        [
+          [
+            "ME",
+            0.995
+          ],
+          [
+            "HUNGRY",
+            0.002
+          ],
+          [
+            "PLEASE",
+            0.001
+          ],
+          [
+            "TOMORROW",
+            0.0
+          ],
+          [
+            "LIKE",
+            0.0
+          ]
+        ],
+        [
+          [
+            "WANT1",
+            0.995
+          ],
+          [
+            "TOMORROW",
+            0.0
+          ],
+          [
+            "HUNGRY",
+            0.0
+          ],
+          [
+            "SIGN",
+            0.0
+          ],
+          [
+            "SCHOOL",
+            0.0
+          ]
+        ],
+        [
+          [
+            "DRINK1",
+            0.99
+          ],
+          [
+            "GO",
+            0.004
+          ],
+          [
+            "WATER",
+            0.002
+          ],
+          [
+            "HELLO",
+            0.0
+          ],
+          [
+            "SCHOOL",
+            0.0
+          ]
+        ],
+        [
+          [
+            "WATER",
+            0.996
+          ],
+          [
+            "MEET",
+            0.001
+          ],
+          [
+            "MOVIE1",
+            0.001
+          ],
+          [
+            "NICE",
+            0.0
+          ],
+          [
+            "YOU",
+            0.0
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.94,
+        "input_tokens": 1191,
+        "output_tokens": 66,
+        "usd": 0.00608
+      },
+      "error": null
+    },
+    {
+      "id": "S02",
+      "instance": 3,
+      "reference": [
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "reference_english": "I want to drink water.",
+      "top1": [
+        "WANT1",
+        "DRINK1"
+      ],
+      "llm": [
+        "WANT1",
+        "DRINK1"
+      ],
+      "english": "I want a drink.",
+      "edits_top1": 2,
+      "edits_llm": 2,
+      "candidates": [
+        [
+          [
+            "WANT1",
+            0.998
+          ],
+          [
+            "HUNGRY",
+            0.0
+          ],
+          [
+            "MEET",
+            0.0
+          ],
+          [
+            "SCHOOL",
+            0.0
+          ],
+          [
+            "ME",
+            0.0
+          ]
+        ],
+        [
+          [
+            "DRINK1",
+            0.932
+          ],
+          [
+            "MOTHER",
+            0.052
+          ],
+          [
+            "WATER",
+            0.003
+          ],
+          [
+            "MOVIE1",
+            0.002
+          ],
+          [
+            "SCHOOL",
+            0.002
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.53,
+        "input_tokens": 1014,
+        "output_tokens": 57,
+        "usd": 0.0052
+      },
+      "error": null
+    },
+    {
+      "id": "S02",
+      "instance": 4,
+      "reference": [
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "reference_english": "I want to drink water.",
+      "top1": [
+        "ME",
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "llm": [
+        "ME",
+        "WANT1",
+        "DRINK1",
+        "WATER"
+      ],
+      "english": "I want to drink water.",
+      "edits_top1": 1,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "ME",
+            0.996
+          ],
+          [
+            "YOU",
+            0.002
+          ],
+          [
+            "HUNGRY",
+            0.0
+          ],
+          [
+            "TOMORROW",
+            0.0
+          ],
+          [
+            "DRINK1",
+            0.0
+          ]
+        ],
+        [
+          [
+            "ME",
+            0.996
+          ],
+          [
+            "HUNGRY",
+            0.001
+          ],
+          [
+            "TOMORROW",
+            0.001
+          ],
+          [
+            "YOU",
+            0.0
+          ],
+          [
+            "PLEASE",
+            0.0
+          ]
+        ],
+        [
+          [
+            "WANT1",
+            0.995
+          ],
+          [
+            "TOMORROW",
+            0.001
+          ],
+          [
+            "HUNGRY",
+            0.0
+          ],
+          [
+            "SIGN",
+            0.0
+          ],
+          [
+            "SCHOOL",
+            0.0
+          ]
+        ],
+        [
+          [
+            "DRINK1",
+            0.993
+          ],
+          [
+            "GO",
+            0.004
+          ],
+          [
+            "WATER",
+            0.001
+          ],
+          [
+            "SCHOOL",
+            0.0
+          ],
+          [
+            "BATHROOM",
+            0.0
+          ]
+        ],
+        [
+          [
+            "WATER",
+            0.996
+          ],
+          [
+            "MEET",
+            0.001
+          ],
+          [
+            "MOVIE1",
+            0.001
+          ],
+          [
+            "NICE",
+            0.0
+          ],
+          [
+            "YOU",
+            0.0
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 2.12,
+        "input_tokens": 1192,
+        "output_tokens": 66,
+        "usd": 0.00609
+      },
+      "error": null
+    },
+    {
+      "id": "S03",
+      "instance": 0,
+      "reference": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "reference_english": "Tomorrow I am going to school.",
+      "top1": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "llm": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "english": "Tomorrow I'm going to school.",
+      "edits_top1": 0,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "TOMORROW",
+            0.995
+          ],
+          [
+            "ME",
+            0.0
+          ],
+          [
+            "DRINK1",
+            0.0
+          ],
+          [
+            "MY",
+            0.0
+          ],
+          [
+            "GO",
+            0.0
+          ]
+        ],
+        [
+          [
+            "ME",
+            0.989
+          ],
+          [
+            "YOU",
+            0.002
+          ],
+          [
+            "TOMORROW",
+            0.001
+          ],
+          [
+            "MY",
+            0.001
+          ],
+          [
+            "LEARN",
+            0.001
+          ]
+        ],
+        [
+          [
+            "GO",
+            0.99
+          ],
+          [
+            "WATER",
+            0.002
+          ],
+          [
+            "MEET",
+            0.002
+          ],
+          [
+            "SCHOOL",
+            0.001
+          ],
+          [
+            "YES",
+            0.001
+          ]
+        ],
+        [
+          [
+            "SCHOOL",
+            0.985
+          ],
+          [
+            "DRINK1",
+            0.004
+          ],
+          [
+            "GO",
+            0.003
+          ],
+          [
+            "WATER",
+            0.001
+          ],
+          [
+            "TOMORROW",
+            0.001
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 2.01,
+        "input_tokens": 1116,
+        "output_tokens": 73,
+        "usd": 0.00592
+      },
+      "error": null
+    },
+    {
+      "id": "S03",
+      "instance": 1,
+      "reference": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "reference_english": "Tomorrow I am going to school.",
+      "top1": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "llm": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "english": "Tomorrow I'm going to school.",
+      "edits_top1": 0,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "TOMORROW",
+            0.986
+          ],
+          [
+            "COFFEE",
+            0.005
+          ],
+          [
+            "YOU",
+            0.001
+          ],
+          [
+            "ME",
+            0.001
+          ],
+          [
+            "LEARN",
+            0.001
+          ]
+        ],
+        [
+          [
+            "ME",
+            0.867
+          ],
+          [
+            "LIKE",
+            0.025
+          ],
+          [
+            "MY",
+            0.022
+          ],
+          [
+            "HUNGRY",
+            0.021
+          ],
+          [
+            "PLEASE",
+            0.02
+          ]
+        ],
+        [
+          [
+            "GO",
+            0.996
+          ],
+          [
+            "MEET",
+            0.001
+          ],
+          [
+            "DRINK1",
+            0.001
+          ],
+          [
+            "WATER",
+            0.0
+          ],
+          [
+            "SCHOOL",
+            0.0
+          ]
+        ],
+        [
+          [
+            "SCHOOL",
+            0.993
+          ],
+          [
+            "GO",
+            0.001
+          ],
+          [
+            "DRINK1",
+            0.001
+          ],
+          [
+            "TOMORROW",
+            0.001
+          ],
+          [
+            "NICE",
+            0.001
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.78,
+        "input_tokens": 1124,
+        "output_tokens": 73,
+        "usd": 0.00596
+      },
+      "error": null
+    },
+    {
+      "id": "S03",
+      "instance": 2,
+      "reference": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "reference_english": "Tomorrow I am going to school.",
+      "top1": [
+        "TOMORROW",
+        "ME",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "llm": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "english": "Tomorrow I will go to school.",
+      "edits_top1": 1,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "TOMORROW",
+            0.997
+          ],
+          [
+            "YES",
+            0.001
+          ],
+          [
+            "MY",
+            0.0
+          ],
+          [
+            "EAT1",
+            0.0
+          ],
+          [
+            "COFFEE",
+            0.0
+          ]
+        ],
+        [
+          [
+            "ME",
+            0.997
+          ],
+          [
+            "YOU",
+            0.001
+          ],
+          [
+            "LEARN",
+            0.0
+          ],
+          [
+            "DRINK1",
+            0.0
+          ],
+          [
+            "WANT1",
+            0.0
+          ]
+        ],
+        [
+          [
+            "ME",
+            0.996
+          ],
+          [
+            "TOMORROW",
+            0.001
+          ],
+          [
+            "PIZZA2",
+            0.0
+          ],
+          [
+            "PLEASE",
+            0.0
+          ],
+          [
+            "LEARN",
+            0.0
+          ]
+        ],
+        [
+          [
+            "GO",
+            0.765
+          ],
+          [
+            "MEET",
+            0.159
+          ],
+          [
+            "WATER",
+            0.05
+          ],
+          [
+            "WANT1",
+            0.01
+          ],
+          [
+            "YOU",
+            0.004
+          ]
+        ],
+        [
+          [
+            "SCHOOL",
+            0.989
+          ],
+          [
+            "MOVIE1",
+            0.004
+          ],
+          [
+            "NICE",
+            0.003
+          ],
+          [
+            "WATER",
+            0.001
+          ],
+          [
+            "GO",
+            0.0
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.72,
+        "input_tokens": 1177,
+        "output_tokens": 74,
+        "usd": 0.00619
+      },
+      "error": null
+    },
+    {
+      "id": "S03",
+      "instance": 3,
+      "reference": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "reference_english": "Tomorrow I am going to school.",
+      "top1": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "llm": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "english": "Tomorrow I'm going to school.",
+      "edits_top1": 0,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "TOMORROW",
+            0.987
+          ],
+          [
+            "COFFEE",
+            0.005
+          ],
+          [
+            "YOU",
+            0.001
+          ],
+          [
+            "ME",
+            0.001
+          ],
+          [
+            "LEARN",
+            0.001
+          ]
+        ],
+        [
+          [
+            "ME",
+            0.562
+          ],
+          [
+            "PLEASE",
+            0.173
+          ],
+          [
+            "LIKE",
+            0.104
+          ],
+          [
+            "HUNGRY",
+            0.056
+          ],
+          [
+            "MY",
+            0.031
+          ]
+        ],
+        [
+          [
+            "GO",
+            0.996
+          ],
+          [
+            "MEET",
+            0.001
+          ],
+          [
+            "SCHOOL",
+            0.0
+          ],
+          [
+            "YES",
+            0.0
+          ],
+          [
+            "WATER",
+            0.0
+          ]
+        ],
+        [
+          [
+            "SCHOOL",
+            0.983
+          ],
+          [
+            "TOMORROW",
+            0.003
+          ],
+          [
+            "MY",
+            0.003
+          ],
+          [
+            "LEARN",
+            0.002
+          ],
+          [
+            "HELP",
+            0.001
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.8,
+        "input_tokens": 1120,
+        "output_tokens": 74,
+        "usd": 0.00596
+      },
+      "error": null
+    },
+    {
+      "id": "S03",
+      "instance": 4,
+      "reference": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "reference_english": "Tomorrow I am going to school.",
+      "top1": [
+        "TOMORROW",
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "llm": [
+        "TOMORROW",
+        "ME",
+        "GO",
+        "SCHOOL"
+      ],
+      "english": "Tomorrow I will go to school.",
+      "edits_top1": 1,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "TOMORROW",
+            0.989
+          ],
+          [
+            "WATCH",
+            0.002
+          ],
+          [
+            "HELP",
+            0.001
+          ],
+          [
+            "THANKYOU",
+            0.001
+          ],
+          [
+            "MY",
+            0.001
+          ]
+        ],
+        [
+          [
+            "TOMORROW",
+            0.98
+          ],
+          [
+            "HELP",
+            0.007
+          ],
+          [
+            "WATCH",
+            0.004
+          ],
+          [
+            "THANKYOU",
+            0.002
+          ],
+          [
+            "MY",
+            0.001
+          ]
+        ],
+        [
+          [
+            "ME",
+            0.989
+          ],
+          [
+            "LEARN",
+            0.006
+          ],
+          [
+            "HUNGRY",
+            0.002
+          ],
+          [
+            "YOU",
+            0.001
+          ],
+          [
+            "MY",
+            0.0
+          ]
+        ],
+        [
+          [
+            "GO",
+            0.984
+          ],
+          [
+            "SIGN",
+            0.009
+          ],
+          [
+            "SCHOOL",
+            0.001
+          ],
+          [
+            "BATHROOM",
+            0.001
+          ],
+          [
+            "DRINK1",
+            0.001
+          ]
+        ],
+        [
+          [
+            "SCHOOL",
+            0.985
+          ],
+          [
+            "LEARN",
+            0.003
+          ],
+          [
+            "HELP",
+            0.002
+          ],
+          [
+            "GO",
+            0.002
+          ],
+          [
+            "NICE",
+            0.002
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 2.0,
+        "input_tokens": 1182,
+        "output_tokens": 73,
+        "usd": 0.00619
+      },
+      "error": null
+    },
+    {
+      "id": "S04",
+      "instance": 0,
+      "reference": [
+        "YOU",
+        "LIKE",
+        "COFFEE"
+      ],
+      "reference_english": "Do you like coffee?",
+      "top1": [
+        "YOU",
+        "LIKE",
+        "COFFEE",
+        "COFFEE"
+      ],
+      "llm": [
+        "YOU",
+        "LIKE",
+        "COFFEE"
+      ],
+      "english": "Do you like coffee?",
+      "edits_top1": 1,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "YOU",
+            0.981
+          ],
+          [
+            "MOTHER",
+            0.004
+          ],
+          [
+            "WATER",
+            0.004
+          ],
+          [
+            "COFFEE",
+            0.002
+          ],
+          [
+            "WHERE",
+            0.001
+          ]
+        ],
+        [
+          [
+            "LIKE",
+            0.618
+          ],
+          [
+            "PLEASE",
+            0.173
+          ],
+          [
+            "HUNGRY",
+            0.167
+          ],
+          [
+            "SICK",
+            0.01
+          ],
+          [
+            "NICE",
+            0.009
+          ]
+        ],
+        [
+          [
+            "COFFEE",
+            0.991
+          ],
+          [
+            "TOMORROW",
+            0.002
+          ],
+          [
+            "ME",
+            0.001
+          ],
+          [
+            "YOU",
+            0.001
+          ],
+          [
+            "HELP",
+            0.001
+          ]
+        ],
+        [
+          [
+            "COFFEE",
+            0.968
+          ],
+          [
+            "ME",
+            0.012
+          ],
+          [
+            "TOMORROW",
+            0.004
+          ],
+          [
+            "LEARN",
+            0.003
+          ],
+          [
+            "YOU",
+            0.003
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.84,
+        "input_tokens": 1124,
+        "output_tokens": 65,
+        "usd": 0.0058
+      },
+      "error": null
+    },
+    {
+      "id": "S04",
+      "instance": 1,
+      "reference": [
+        "YOU",
+        "LIKE",
+        "COFFEE"
+      ],
+      "reference_english": "Do you like coffee?",
+      "top1": [
+        "LIKE",
+        "COFFEE"
+      ],
+      "llm": [
+        "LIKE",
+        "COFFEE"
+      ],
+      "english": "I like coffee.",
+      "edits_top1": 1,
+      "edits_llm": 1,
+      "candidates": [
+        [
+          [
+            "LIKE",
+            0.824
+          ],
+          [
+            "HUNGRY",
+            0.12
+          ],
+          [
+            "PLEASE",
+            0.04
+          ],
+          [
+            "NICE",
+            0.004
+          ],
+          [
+            "MY",
+            0.003
+          ]
+        ],
+        [
+          [
+            "COFFEE",
+            0.993
+          ],
+          [
+            "TOMORROW",
+            0.001
+          ],
+          [
+            "LIKE",
+            0.001
+          ],
+          [
+            "YOU",
+            0.001
+          ],
+          [
+            "HELP",
+            0.001
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.51,
+        "input_tokens": 1009,
+        "output_tokens": 57,
+        "usd": 0.00518
+      },
+      "error": null
+    },
+    {
+      "id": "S04",
+      "instance": 2,
+      "reference": [
+        "YOU",
+        "LIKE",
+        "COFFEE"
+      ],
+      "reference_english": "Do you like coffee?",
+      "top1": [
+        "YOU",
+        "COFFEE"
+      ],
+      "llm": [
+        "YOU",
+        "COFFEE"
+      ],
+      "english": "Do you want coffee?",
+      "edits_top1": 1,
+      "edits_llm": 1,
+      "candidates": [
+        [
+          [
+            "YOU",
+            0.983
+          ],
+          [
+            "TOMORROW",
+            0.008
+          ],
+          [
+            "ME",
+            0.002
+          ],
+          [
+            "COFFEE",
+            0.002
+          ],
+          [
+            "YESTERDAY",
+            0.001
+          ]
+        ],
+        [
+          [
+            "COFFEE",
+            0.998
+          ],
+          [
+            "TOMORROW",
+            0.001
+          ],
+          [
+            "YES",
+            0.0
+          ],
+          [
+            "SICK",
+            0.0
+          ],
+          [
+            "MOVIE1",
+            0.0
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.89,
+        "input_tokens": 1013,
+        "output_tokens": 58,
+        "usd": 0.00521
+      },
+      "error": null
+    },
+    {
+      "id": "S04",
+      "instance": 3,
+      "reference": [
+        "YOU",
+        "LIKE",
+        "COFFEE"
+      ],
+      "reference_english": "Do you like coffee?",
+      "top1": [
+        "YOU",
+        "LIKE",
+        "COFFEE"
+      ],
+      "llm": [
+        "YOU",
+        "LIKE",
+        "COFFEE"
+      ],
+      "english": "Do you like coffee?",
+      "edits_top1": 0,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "YOU",
+            0.991
+          ],
+          [
+            "COFFEE",
+            0.005
+          ],
+          [
+            "LIKE",
+            0.001
+          ],
+          [
+            "MEET",
+            0.0
+          ],
+          [
+            "SICK",
+            0.0
+          ]
+        ],
+        [
+          [
+            "LIKE",
+            0.988
+          ],
+          [
+            "NICE",
+            0.003
+          ],
+          [
+            "COFFEE",
+            0.002
+          ],
+          [
+            "HUNGRY",
+            0.002
+          ],
+          [
+            "SCHOOL",
+            0.001
+          ]
+        ],
+        [
+          [
+            "COFFEE",
+            0.997
+          ],
+          [
+            "LIKE",
+            0.0
+          ],
+          [
+            "YES",
+            0.0
+          ],
+          [
+            "SICK",
+            0.0
+          ],
+          [
+            "TOMORROW",
+            0.0
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.7,
+        "input_tokens": 1068,
+        "output_tokens": 63,
+        "usd": 0.00553
+      },
+      "error": null
+    },
+    {
+      "id": "S04",
+      "instance": 4,
+      "reference": [
+        "YOU",
+        "LIKE",
+        "COFFEE"
+      ],
+      "reference_english": "Do you like coffee?",
+      "top1": [
+        "YOU",
+        "LIKE",
+        "COFFEE",
+        "COFFEE"
+      ],
+      "llm": [
+        "YOU",
+        "LIKE",
+        "COFFEE"
+      ],
+      "english": "Do you like coffee?",
+      "edits_top1": 1,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "YOU",
+            0.995
+          ],
+          [
+            "COFFEE",
+            0.001
+          ],
+          [
+            "MOTHER",
+            0.001
+          ],
+          [
+            "WATER",
+            0.001
+          ],
+          [
+            "MEET",
+            0.0
+          ]
+        ],
+        [
+          [
+            "LIKE",
+            0.778
+          ],
+          [
+            "HUNGRY",
+            0.145
+          ],
+          [
+            "PLEASE",
+            0.057
+          ],
+          [
+            "NICE",
+            0.007
+          ],
+          [
+            "SICK",
+            0.002
+          ]
+        ],
+        [
+          [
+            "COFFEE",
+            0.99
+          ],
+          [
+            "TOMORROW",
+            0.002
+          ],
+          [
+            "YOU",
+            0.001
+          ],
+          [
+            "ME",
+            0.001
+          ],
+          [
+            "HELP",
+            0.001
+          ]
+        ],
+        [
+          [
+            "COFFEE",
+            0.97
+          ],
+          [
+            "ME",
+            0.006
+          ],
+          [
+            "LEARN",
+            0.004
+          ],
+          [
+            "TOMORROW",
+            0.004
+          ],
+          [
+            "YOU",
+            0.002
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.92,
+        "input_tokens": 1123,
+        "output_tokens": 64,
+        "usd": 0.00577
+      },
+      "error": null
+    },
+    {
+      "id": "S05",
+      "instance": 0,
+      "reference": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "reference_english": "My mother is sick.",
+      "top1": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "llm": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "english": "My mother is sick.",
+      "edits_top1": 0,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "MY",
+            0.831
+          ],
+          [
+            "SCHOOL",
+            0.084
+          ],
+          [
+            "NICE",
+            0.033
+          ],
+          [
+            "PLEASE",
+            0.028
+          ],
+          [
+            "HELP",
+            0.004
+          ]
+        ],
+        [
+          [
+            "MOTHER",
+            0.995
+          ],
+          [
+            "MOVIE1",
+            0.002
+          ],
+          [
+            "NO",
+            0.001
+          ],
+          [
+            "WATER",
+            0.0
+          ],
+          [
+            "DRINK1",
+            0.0
+          ]
+        ],
+        [
+          [
+            "SICK",
+            0.957
+          ],
+          [
+            "LEARN",
+            0.018
+          ],
+          [
+            "MOTHER",
+            0.011
+          ],
+          [
+            "DRINK1",
+            0.003
+          ],
+          [
+            "HELLO",
+            0.002
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 2.08,
+        "input_tokens": 1067,
+        "output_tokens": 60,
+        "usd": 0.00547
+      },
+      "error": null
+    },
+    {
+      "id": "S05",
+      "instance": 1,
+      "reference": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "reference_english": "My mother is sick.",
+      "top1": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "llm": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "english": "My mother is sick.",
+      "edits_top1": 0,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "MY",
+            0.992
+          ],
+          [
+            "NICE",
+            0.004
+          ],
+          [
+            "HUNGRY",
+            0.001
+          ],
+          [
+            "SCHOOL",
+            0.0
+          ],
+          [
+            "HELP",
+            0.0
+          ]
+        ],
+        [
+          [
+            "MOTHER",
+            0.973
+          ],
+          [
+            "DRINK1",
+            0.014
+          ],
+          [
+            "MY",
+            0.004
+          ],
+          [
+            "MOVIE1",
+            0.003
+          ],
+          [
+            "SCHOOL",
+            0.001
+          ]
+        ],
+        [
+          [
+            "SICK",
+            0.993
+          ],
+          [
+            "LEARN",
+            0.002
+          ],
+          [
+            "SIGN",
+            0.002
+          ],
+          [
+            "DRINK1",
+            0.0
+          ],
+          [
+            "HELLO",
+            0.0
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 2.03,
+        "input_tokens": 1070,
+        "output_tokens": 60,
+        "usd": 0.00548
+      },
+      "error": null
+    },
+    {
+      "id": "S05",
+      "instance": 2,
+      "reference": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "reference_english": "My mother is sick.",
+      "top1": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "llm": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "english": "My mother is sick.",
+      "edits_top1": 0,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "MY",
+            0.991
+          ],
+          [
+            "NICE",
+            0.005
+          ],
+          [
+            "HUNGRY",
+            0.0
+          ],
+          [
+            "HELP",
+            0.0
+          ],
+          [
+            "PLEASE",
+            0.0
+          ]
+        ],
+        [
+          [
+            "MOTHER",
+            0.83
+          ],
+          [
+            "DRINK1",
+            0.133
+          ],
+          [
+            "MY",
+            0.015
+          ],
+          [
+            "SCHOOL",
+            0.004
+          ],
+          [
+            "SICK",
+            0.003
+          ]
+        ],
+        [
+          [
+            "SICK",
+            0.991
+          ],
+          [
+            "LEARN",
+            0.004
+          ],
+          [
+            "SIGN",
+            0.001
+          ],
+          [
+            "DRINK1",
+            0.001
+          ],
+          [
+            "PLEASE",
+            0.001
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.76,
+        "input_tokens": 1067,
+        "output_tokens": 60,
+        "usd": 0.00547
+      },
+      "error": null
+    },
+    {
+      "id": "S05",
+      "instance": 3,
+      "reference": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "reference_english": "My mother is sick.",
+      "top1": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "llm": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "english": "My mother is sick.",
+      "edits_top1": 0,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "MY",
+            0.995
+          ],
+          [
+            "NICE",
+            0.002
+          ],
+          [
+            "SCHOOL",
+            0.0
+          ],
+          [
+            "HUNGRY",
+            0.0
+          ],
+          [
+            "TOMORROW",
+            0.0
+          ]
+        ],
+        [
+          [
+            "MOTHER",
+            0.994
+          ],
+          [
+            "MOVIE1",
+            0.001
+          ],
+          [
+            "MY",
+            0.001
+          ],
+          [
+            "SICK",
+            0.001
+          ],
+          [
+            "NO",
+            0.0
+          ]
+        ],
+        [
+          [
+            "SICK",
+            0.979
+          ],
+          [
+            "LEARN",
+            0.015
+          ],
+          [
+            "SIGN",
+            0.001
+          ],
+          [
+            "HELLO",
+            0.001
+          ],
+          [
+            "DRINK1",
+            0.001
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.93,
+        "input_tokens": 1067,
+        "output_tokens": 60,
+        "usd": 0.00547
+      },
+      "error": null
+    },
+    {
+      "id": "S05",
+      "instance": 4,
+      "reference": [
+        "MY",
+        "MOTHER",
+        "SICK"
+      ],
+      "reference_english": "My mother is sick.",
+      "top1": [
+        "MY",
+        "SICK"
+      ],
+      "llm": [
+        "MY",
+        "SICK"
+      ],
+      "english": "I'm sick.",
+      "edits_top1": 1,
+      "edits_llm": 1,
+      "candidates": [
+        [
+          [
+            "MY",
+            0.94
+          ],
+          [
+            "SCHOOL",
+            0.016
+          ],
+          [
+            "MOVIE1",
+            0.008
+          ],
+          [
+            "NICE",
+            0.008
+          ],
+          [
+            "TOMORROW",
+            0.007
+          ]
+        ],
+        [
+          [
+            "SICK",
+            0.993
+          ],
+          [
+            "PLEASE",
+            0.002
+          ],
+          [
+            "SIGN",
+            0.001
+          ],
+          [
+            "LEARN",
+            0.001
+          ],
+          [
+            "PIZZA2",
+            0.0
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.93,
+        "input_tokens": 1013,
+        "output_tokens": 54,
+        "usd": 0.00513
+      },
+      "error": null
+    },
+    {
+      "id": "S06",
+      "instance": 0,
+      "reference": [
+        "ME",
+        "HUNGRY",
+        "WANT1",
+        "EAT1",
+        "PIZZA2"
+      ],
+      "reference_english": "I'm hungry; I want to eat pizza.",
+      "top1": [
+        "ME",
+        "WANT1",
+        "PIZZA2"
+      ],
+      "llm": [
+        "ME",
+        "WANT1",
+        "PIZZA2"
+      ],
+      "english": "I want pizza.",
+      "edits_top1": 2,
+      "edits_llm": 2,
+      "candidates": [
+        [
+          [
+            "ME",
+            0.995
+          ],
+          [
+            "HUNGRY",
+            0.001
+          ],
+          [
+            "YOU",
+            0.001
+          ],
+          [
+            "LEARN",
+            0.001
+          ],
+          [
+            "COFFEE",
+            0.0
+          ]
+        ],
+        [
+          [
+            "WANT1",
+            0.998
+          ],
+          [
+            "HUNGRY",
+            0.0
+          ],
+          [
+            "SCHOOL",
+            0.0
+          ],
+          [
+            "HELP",
+            0.0
+          ],
+          [
+            "MEET",
+            0.0
+          ]
+        ],
+        [
+          [
+            "PIZZA2",
+            0.927
+          ],
+          [
+            "BATHROOM",
+            0.051
+          ],
+          [
+            "TOMORROW",
+            0.015
+          ],
+          [
+            "PLEASE",
+            0.001
+          ],
+          [
+            "WATER",
+            0.001
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 17.38,
+        "input_tokens": 1074,
+        "output_tokens": 61,
+        "usd": 0.00552
+      },
+      "error": null
+    },
+    {
+      "id": "S06",
+      "instance": 1,
+      "reference": [
+        "ME",
+        "HUNGRY",
+        "WANT1",
+        "EAT1",
+        "PIZZA2"
+      ],
+      "reference_english": "I'm hungry; I want to eat pizza.",
+      "top1": [
+        "ME",
+        "ME",
+        "HUNGRY",
+        "HUNGRY",
+        "WANT1",
+        "EAT1",
+        "PIZZA2"
+      ],
+      "llm": [
+        "ME",
+        "HUNGRY",
+        "WANT1",
+        "EAT1",
+        "PIZZA2"
+      ],
+      "english": "I'm hungry. I want to eat pizza.",
+      "edits_top1": 2,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "ME",
+            0.997
+          ],
+          [
+            "YOU",
+            0.001
+          ],
+          [
+            "HUNGRY",
+            0.0
+          ],
+          [
+            "TOMORROW",
+            0.0
+          ],
+          [
+            "DRINK1",
+            0.0
+          ]
+        ],
+        [
+          [
+            "ME",
+            0.993
+          ],
+          [
+            "HUNGRY",
+            0.002
+          ],
+          [
+            "PIZZA2",
+            0.002
+          ],
+          [
+            "PLEASE",
+            0.001
+          ],
+          [
+            "TOMORROW",
+            0.0
+          ]
+        ],
+        [
+          [
+            "HUNGRY",
+            0.98
+          ],
+          [
+            "HELP",
+            0.005
+          ],
+          [
+            "MY",
+            0.005
+          ],
+          [
+            "ME",
+            0.002
+          ],
+          [
+            "PLEASE",
+            0.002
+          ]
+        ],
+        [
+          [
+            "HUNGRY",
+            0.981
+          ],
+          [
+            "NICE",
+            0.004
+          ],
+          [
+            "PLEASE",
+            0.004
+          ],
+          [
+            "HELP",
+            0.003
+          ],
+          [
+            "MY",
+            0.003
+          ]
+        ],
+        [
+          [
+            "WANT1",
+            0.992
+          ],
+          [
+            "TOMORROW",
+            0.001
+          ],
+          [
+            "HELP",
+            0.001
+          ],
+          [
+            "HUNGRY",
+            0.001
+          ],
+          [
+            "SCHOOL",
+            0.001
+          ]
+        ],
+        [
+          [
+            "EAT1",
+            0.995
+          ],
+          [
+            "WANT1",
+            0.001
+          ],
+          [
+            "THANKYOU",
+            0.001
+          ],
+          [
+            "WATER",
+            0.0
+          ],
+          [
+            "TOMORROW",
+            0.0
+          ]
+        ],
+        [
+          [
+            "PIZZA2",
+            0.969
+          ],
+          [
+            "YES",
+            0.015
+          ],
+          [
+            "TOMORROW",
+            0.005
+          ],
+          [
+            "WATER",
+            0.002
+          ],
+          [
+            "NO",
+            0.002
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 2.07,
+        "input_tokens": 1309,
+        "output_tokens": 86,
+        "usd": 0.00696
+      },
+      "error": null
+    },
+    {
+      "id": "S06",
+      "instance": 2,
+      "reference": [
+        "ME",
+        "HUNGRY",
+        "WANT1",
+        "EAT1",
+        "PIZZA2"
+      ],
+      "reference_english": "I'm hungry; I want to eat pizza.",
+      "top1": [
+        "HUNGRY",
+        "WANT1",
+        "EAT1",
+        "PIZZA2"
+      ],
+      "llm": [
+        "HUNGRY",
+        "WANT1",
+        "EAT1",
+        "PIZZA2"
+      ],
+      "english": "I'm hungry; I want to eat pizza.",
+      "edits_top1": 1,
+      "edits_llm": 1,
+      "candidates": [
+        [
+          [
+            "HUNGRY",
+            0.855
+          ],
+          [
+            "ME",
+            0.106
+          ],
+          [
+            "MY",
+            0.014
+          ],
+          [
+            "LEARN",
+            0.007
+          ],
+          [
+            "PLEASE",
+            0.004
+          ]
+        ],
+        [
+          [
+            "WANT1",
+            0.994
+          ],
+          [
+            "HELP",
+            0.001
+          ],
+          [
+            "SCHOOL",
+            0.001
+          ],
+          [
+            "HUNGRY",
+            0.001
+          ],
+          [
+            "SICK",
+            0.0
+          ]
+        ],
+        [
+          [
+            "EAT1",
+            0.9
+          ],
+          [
+            "WATCH",
+            0.043
+          ],
+          [
+            "SCHOOL",
+            0.01
+          ],
+          [
+            "WANT1",
+            0.008
+          ],
+          [
+            "HUNGRY",
+            0.007
+          ]
+        ],
+        [
+          [
+            "PIZZA2",
+            0.992
+          ],
+          [
+            "PLEASE",
+            0.002
+          ],
+          [
+            "TOMORROW",
+            0.001
+          ],
+          [
+            "YES",
+            0.001
+          ],
+          [
+            "NO",
+            0.001
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.51,
+        "input_tokens": 1130,
+        "output_tokens": 80,
+        "usd": 0.00612
+      },
+      "error": null
+    },
+    {
+      "id": "S06",
+      "instance": 3,
+      "reference": [
+        "ME",
+        "HUNGRY",
+        "WANT1",
+        "EAT1",
+        "PIZZA2"
+      ],
+      "reference_english": "I'm hungry; I want to eat pizza.",
+      "top1": [
+        "ME",
+        "WANT1",
+        "PIZZA2"
+      ],
+      "llm": [
+        "ME",
+        "WANT1",
+        "PIZZA2"
+      ],
+      "english": "I want pizza.",
+      "edits_top1": 2,
+      "edits_llm": 2,
+      "candidates": [
+        [
+          [
+            "ME",
+            0.901
+          ],
+          [
+            "YOU",
+            0.09
+          ],
+          [
+            "HUNGRY",
+            0.002
+          ],
+          [
+            "LEARN",
+            0.001
+          ],
+          [
+            "WANT1",
+            0.001
+          ]
+        ],
+        [
+          [
+            "WANT1",
+            0.998
+          ],
+          [
+            "HUNGRY",
+            0.0
+          ],
+          [
+            "SCHOOL",
+            0.0
+          ],
+          [
+            "PIZZA2",
+            0.0
+          ],
+          [
+            "EAT1",
+            0.0
+          ]
+        ],
+        [
+          [
+            "PIZZA2",
+            0.951
+          ],
+          [
+            "BATHROOM",
+            0.033
+          ],
+          [
+            "TOMORROW",
+            0.005
+          ],
+          [
+            "PLEASE",
+            0.004
+          ],
+          [
+            "YES",
+            0.002
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.99,
+        "input_tokens": 1076,
+        "output_tokens": 61,
+        "usd": 0.00552
+      },
+      "error": null
+    },
+    {
+      "id": "S06",
+      "instance": 4,
+      "reference": [
+        "ME",
+        "HUNGRY",
+        "WANT1",
+        "EAT1",
+        "PIZZA2"
+      ],
+      "reference_english": "I'm hungry; I want to eat pizza.",
+      "top1": [
+        "ME",
+        "WANT1",
+        "PIZZA2"
+      ],
+      "llm": [
+        "ME",
+        "WANT1",
+        "PIZZA2"
+      ],
+      "english": "I want pizza.",
+      "edits_top1": 2,
+      "edits_llm": 2,
+      "candidates": [
+        [
+          [
+            "ME",
+            0.967
+          ],
+          [
+            "HUNGRY",
+            0.026
+          ],
+          [
+            "YOU",
+            0.001
+          ],
+          [
+            "LEARN",
+            0.001
+          ],
+          [
+            "WANT1",
+            0.001
+          ]
+        ],
+        [
+          [
+            "WANT1",
+            0.998
+          ],
+          [
+            "HUNGRY",
+            0.0
+          ],
+          [
+            "SCHOOL",
+            0.0
+          ],
+          [
+            "HELP",
+            0.0
+          ],
+          [
+            "SICK",
+            0.0
+          ]
+        ],
+        [
+          [
+            "PIZZA2",
+            0.972
+          ],
+          [
+            "BATHROOM",
+            0.016
+          ],
+          [
+            "TOMORROW",
+            0.007
+          ],
+          [
+            "PLEASE",
+            0.002
+          ],
+          [
+            "ME",
+            0.001
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.89,
+        "input_tokens": 1072,
+        "output_tokens": 61,
+        "usd": 0.00551
+      },
+      "error": null
+    },
+    {
+      "id": "S07",
+      "instance": 0,
+      "reference": [
+        "BATHROOM",
+        "WHERE"
+      ],
+      "reference_english": "Where is the bathroom?",
+      "top1": [
+        "BATHROOM",
+        "WHERE"
+      ],
+      "llm": [
+        "BATHROOM",
+        "WHERE"
+      ],
+      "english": "Where is the bathroom?",
+      "edits_top1": 0,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "BATHROOM",
+            0.963
+          ],
+          [
+            "YES",
+            0.02
+          ],
+          [
+            "TOMORROW",
+            0.009
+          ],
+          [
+            "PLEASE",
+            0.002
+          ],
+          [
+            "WHERE",
+            0.001
+          ]
+        ],
+        [
+          [
+            "WHERE",
+            0.975
+          ],
+          [
+            "BATHROOM",
+            0.008
+          ],
+          [
+            "YES",
+            0.004
+          ],
+          [
+            "LIKE",
+            0.002
+          ],
+          [
+            "GO",
+            0.002
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.65,
+        "input_tokens": 1009,
+        "output_tokens": 61,
+        "usd": 0.00526
+      },
+      "error": null
+    },
+    {
+      "id": "S07",
+      "instance": 1,
+      "reference": [
+        "BATHROOM",
+        "WHERE"
+      ],
+      "reference_english": "Where is the bathroom?",
+      "top1": [
+        "BATHROOM"
+      ],
+      "llm": [
+        "BATHROOM"
+      ],
+      "english": "Bathroom.",
+      "edits_top1": 1,
+      "edits_llm": 1,
+      "candidates": [
+        [
+          [
+            "BATHROOM",
+            0.947
+          ],
+          [
+            "WHERE",
+            0.044
+          ],
+          [
+            "LIKE",
+            0.003
+          ],
+          [
+            "NO",
+            0.001
+          ],
+          [
+            "GO",
+            0.001
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.88,
+        "input_tokens": 948,
+        "output_tokens": 53,
+        "usd": 0.00485
+      },
+      "error": null
+    },
+    {
+      "id": "S07",
+      "instance": 2,
+      "reference": [
+        "BATHROOM",
+        "WHERE"
+      ],
+      "reference_english": "Where is the bathroom?",
+      "top1": [
+        "BATHROOM",
+        "WHERE"
+      ],
+      "llm": [
+        "BATHROOM",
+        "WHERE"
+      ],
+      "english": "Where is the bathroom?",
+      "edits_top1": 0,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "BATHROOM",
+            0.918
+          ],
+          [
+            "YES",
+            0.061
+          ],
+          [
+            "TOMORROW",
+            0.009
+          ],
+          [
+            "PLEASE",
+            0.004
+          ],
+          [
+            "SIGN",
+            0.001
+          ]
+        ],
+        [
+          [
+            "WHERE",
+            0.993
+          ],
+          [
+            "YES",
+            0.002
+          ],
+          [
+            "MOVIE1",
+            0.001
+          ],
+          [
+            "WATCH",
+            0.001
+          ],
+          [
+            "BATHROOM",
+            0.001
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.65,
+        "input_tokens": 1013,
+        "output_tokens": 61,
+        "usd": 0.00527
+      },
+      "error": null
+    },
+    {
+      "id": "S07",
+      "instance": 3,
+      "reference": [
+        "BATHROOM",
+        "WHERE"
+      ],
+      "reference_english": "Where is the bathroom?",
+      "top1": [
+        "BATHROOM"
+      ],
+      "llm": [
+        "BATHROOM"
+      ],
+      "english": "Bathroom.",
+      "edits_top1": 1,
+      "edits_llm": 1,
+      "candidates": [
+        [
+          [
+            "BATHROOM",
+            0.965
+          ],
+          [
+            "WHERE",
+            0.029
+          ],
+          [
+            "LIKE",
+            0.001
+          ],
+          [
+            "GO",
+            0.001
+          ],
+          [
+            "TOMORROW",
+            0.001
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.91,
+        "input_tokens": 952,
+        "output_tokens": 53,
+        "usd": 0.00487
+      },
+      "error": null
+    },
+    {
+      "id": "S07",
+      "instance": 4,
+      "reference": [
+        "BATHROOM",
+        "WHERE"
+      ],
+      "reference_english": "Where is the bathroom?",
+      "top1": [
+        "BATHROOM",
+        "WHERE"
+      ],
+      "llm": [
+        "BATHROOM",
+        "WHERE"
+      ],
+      "english": "Where is the bathroom?",
+      "edits_top1": 0,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "BATHROOM",
+            0.995
+          ],
+          [
+            "WHERE",
+            0.001
+          ],
+          [
+            "PLEASE",
+            0.001
+          ],
+          [
+            "YES",
+            0.001
+          ],
+          [
+            "TOMORROW",
+            0.001
+          ]
+        ],
+        [
+          [
+            "WHERE",
+            0.997
+          ],
+          [
+            "GO",
+            0.0
+          ],
+          [
+            "BATHROOM",
+            0.0
+          ],
+          [
+            "YES",
+            0.0
+          ],
+          [
+            "YOU",
+            0.0
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 2.12,
+        "input_tokens": 1008,
+        "output_tokens": 61,
+        "usd": 0.00525
+      },
+      "error": null
+    },
+    {
+      "id": "S08",
+      "instance": 0,
+      "reference": [
+        "YESTERDAY",
+        "ME",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "reference_english": "Yesterday I watched a movie.",
+      "top1": [
+        "YESTERDAY",
+        "WATCH",
+        "NICE",
+        "NICE"
+      ],
+      "llm": [
+        "YESTERDAY",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "english": "Yesterday I watched a movie.",
+      "edits_top1": 3,
+      "edits_llm": 1,
+      "candidates": [
+        [
+          [
+            "YESTERDAY",
+            0.986
+          ],
+          [
+            "HELLO",
+            0.003
+          ],
+          [
+            "SIGN",
+            0.002
+          ],
+          [
+            "YOU",
+            0.001
+          ],
+          [
+            "ME",
+            0.001
+          ]
+        ],
+        [
+          [
+            "WATCH",
+            0.887
+          ],
+          [
+            "HUNGRY",
+            0.05
+          ],
+          [
+            "PLEASE",
+            0.025
+          ],
+          [
+            "HELP",
+            0.016
+          ],
+          [
+            "MOVIE1",
+            0.005
+          ]
+        ],
+        [
+          [
+            "NICE",
+            0.446
+          ],
+          [
+            "SCHOOL",
+            0.396
+          ],
+          [
+            "MOVIE1",
+            0.142
+          ],
+          [
+            "HELP",
+            0.003
+          ],
+          [
+            "THANKYOU",
+            0.003
+          ]
+        ],
+        [
+          [
+            "NICE",
+            0.446
+          ],
+          [
+            "SCHOOL",
+            0.396
+          ],
+          [
+            "MOVIE1",
+            0.142
+          ],
+          [
+            "HELP",
+            0.003
+          ],
+          [
+            "THANKYOU",
+            0.003
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 2.04,
+        "input_tokens": 1136,
+        "output_tokens": 74,
+        "usd": 0.00602
+      },
+      "error": null
+    },
+    {
+      "id": "S08",
+      "instance": 1,
+      "reference": [
+        "YESTERDAY",
+        "ME",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "reference_english": "Yesterday I watched a movie.",
+      "top1": [
+        "YESTERDAY",
+        "ME",
+        "WATCH",
+        "MOVIE1",
+        "MOVIE1"
+      ],
+      "llm": [
+        "YESTERDAY",
+        "ME",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "english": "Yesterday I watched a movie.",
+      "edits_top1": 1,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "YESTERDAY",
+            0.99
+          ],
+          [
+            "BATHROOM",
+            0.005
+          ],
+          [
+            "SIGN",
+            0.002
+          ],
+          [
+            "HELLO",
+            0.0
+          ],
+          [
+            "MOVIE1",
+            0.0
+          ]
+        ],
+        [
+          [
+            "ME",
+            0.949
+          ],
+          [
+            "PLEASE",
+            0.021
+          ],
+          [
+            "PIZZA2",
+            0.011
+          ],
+          [
+            "HUNGRY",
+            0.003
+          ],
+          [
+            "FRIEND",
+            0.003
+          ]
+        ],
+        [
+          [
+            "WATCH",
+            0.876
+          ],
+          [
+            "HELP",
+            0.043
+          ],
+          [
+            "HUNGRY",
+            0.035
+          ],
+          [
+            "PLEASE",
+            0.016
+          ],
+          [
+            "MOVIE1",
+            0.009
+          ]
+        ],
+        [
+          [
+            "MOVIE1",
+            0.41
+          ],
+          [
+            "SCHOOL",
+            0.314
+          ],
+          [
+            "NICE",
+            0.265
+          ],
+          [
+            "THANKYOU",
+            0.002
+          ],
+          [
+            "HELP",
+            0.001
+          ]
+        ],
+        [
+          [
+            "MOVIE1",
+            0.409
+          ],
+          [
+            "SCHOOL",
+            0.315
+          ],
+          [
+            "NICE",
+            0.265
+          ],
+          [
+            "THANKYOU",
+            0.002
+          ],
+          [
+            "HELP",
+            0.001
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 2.05,
+        "input_tokens": 1205,
+        "output_tokens": 77,
+        "usd": 0.00636
+      },
+      "error": null
+    },
+    {
+      "id": "S08",
+      "instance": 2,
+      "reference": [
+        "YESTERDAY",
+        "ME",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "reference_english": "Yesterday I watched a movie.",
+      "top1": [
+        "YESTERDAY",
+        "ME",
+        "ME",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "llm": [
+        "YESTERDAY",
+        "ME",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "english": "Yesterday I watched a movie.",
+      "edits_top1": 1,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "YESTERDAY",
+            0.862
+          ],
+          [
+            "YES",
+            0.069
+          ],
+          [
+            "TOMORROW",
+            0.03
+          ],
+          [
+            "BATHROOM",
+            0.009
+          ],
+          [
+            "MOVIE1",
+            0.006
+          ]
+        ],
+        [
+          [
+            "ME",
+            0.996
+          ],
+          [
+            "HUNGRY",
+            0.001
+          ],
+          [
+            "PLEASE",
+            0.001
+          ],
+          [
+            "LEARN",
+            0.001
+          ],
+          [
+            "YOU",
+            0.0
+          ]
+        ],
+        [
+          [
+            "ME",
+            0.994
+          ],
+          [
+            "PLEASE",
+            0.001
+          ],
+          [
+            "HUNGRY",
+            0.001
+          ],
+          [
+            "TOMORROW",
+            0.001
+          ],
+          [
+            "PIZZA2",
+            0.001
+          ]
+        ],
+        [
+          [
+            "WATCH",
+            0.989
+          ],
+          [
+            "HUNGRY",
+            0.005
+          ],
+          [
+            "WHERE",
+            0.001
+          ],
+          [
+            "TOMORROW",
+            0.001
+          ],
+          [
+            "MY",
+            0.001
+          ]
+        ],
+        [
+          [
+            "MOVIE1",
+            0.905
+          ],
+          [
+            "SCHOOL",
+            0.075
+          ],
+          [
+            "HELP",
+            0.005
+          ],
+          [
+            "PIZZA2",
+            0.003
+          ],
+          [
+            "PLEASE",
+            0.003
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 2.03,
+        "input_tokens": 1202,
+        "output_tokens": 76,
+        "usd": 0.00633
+      },
+      "error": null
+    },
+    {
+      "id": "S08",
+      "instance": 3,
+      "reference": [
+        "YESTERDAY",
+        "ME",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "reference_english": "Yesterday I watched a movie.",
+      "top1": [
+        "YESTERDAY",
+        "ME",
+        "ME",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "llm": [
+        "YESTERDAY",
+        "ME",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "english": "Yesterday I watched a movie.",
+      "edits_top1": 1,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "YESTERDAY",
+            0.871
+          ],
+          [
+            "YES",
+            0.051
+          ],
+          [
+            "TOMORROW",
+            0.045
+          ],
+          [
+            "BATHROOM",
+            0.012
+          ],
+          [
+            "LEARN",
+            0.008
+          ]
+        ],
+        [
+          [
+            "ME",
+            0.998
+          ],
+          [
+            "LEARN",
+            0.0
+          ],
+          [
+            "PLEASE",
+            0.0
+          ],
+          [
+            "PIZZA2",
+            0.0
+          ],
+          [
+            "HUNGRY",
+            0.0
+          ]
+        ],
+        [
+          [
+            "ME",
+            0.997
+          ],
+          [
+            "PIZZA2",
+            0.0
+          ],
+          [
+            "PLEASE",
+            0.0
+          ],
+          [
+            "TOMORROW",
+            0.0
+          ],
+          [
+            "LEARN",
+            0.0
+          ]
+        ],
+        [
+          [
+            "WATCH",
+            0.997
+          ],
+          [
+            "MOVIE1",
+            0.0
+          ],
+          [
+            "HELP",
+            0.0
+          ],
+          [
+            "TOMORROW",
+            0.0
+          ],
+          [
+            "HUNGRY",
+            0.0
+          ]
+        ],
+        [
+          [
+            "MOVIE1",
+            0.96
+          ],
+          [
+            "SCHOOL",
+            0.026
+          ],
+          [
+            "HELP",
+            0.002
+          ],
+          [
+            "PIZZA2",
+            0.002
+          ],
+          [
+            "PLEASE",
+            0.002
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 2.04,
+        "input_tokens": 1204,
+        "output_tokens": 76,
+        "usd": 0.00634
+      },
+      "error": null
+    },
+    {
+      "id": "S08",
+      "instance": 4,
+      "reference": [
+        "YESTERDAY",
+        "ME",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "reference_english": "Yesterday I watched a movie.",
+      "top1": [
+        "YESTERDAY",
+        "WATCH",
+        "SCHOOL",
+        "SCHOOL"
+      ],
+      "llm": [
+        "YESTERDAY",
+        "WATCH",
+        "MOVIE1"
+      ],
+      "english": "Yesterday I watched a movie.",
+      "edits_top1": 3,
+      "edits_llm": 1,
+      "candidates": [
+        [
+          [
+            "YESTERDAY",
+            0.988
+          ],
+          [
+            "HELLO",
+            0.004
+          ],
+          [
+            "SIGN",
+            0.003
+          ],
+          [
+            "BATHROOM",
+            0.001
+          ],
+          [
+            "MOVIE1",
+            0.0
+          ]
+        ],
+        [
+          [
+            "WATCH",
+            0.716
+          ],
+          [
+            "HELP",
+            0.142
+          ],
+          [
+            "PLEASE",
+            0.056
+          ],
+          [
+            "HUNGRY",
+            0.026
+          ],
+          [
+            "SCHOOL",
+            0.015
+          ]
+        ],
+        [
+          [
+            "SCHOOL",
+            0.399
+          ],
+          [
+            "NICE",
+            0.294
+          ],
+          [
+            "MOVIE1",
+            0.291
+          ],
+          [
+            "THANKYOU",
+            0.004
+          ],
+          [
+            "HELP",
+            0.003
+          ]
+        ],
+        [
+          [
+            "SCHOOL",
+            0.399
+          ],
+          [
+            "NICE",
+            0.294
+          ],
+          [
+            "MOVIE1",
+            0.291
+          ],
+          [
+            "THANKYOU",
+            0.004
+          ],
+          [
+            "HELP",
+            0.003
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 2.0,
+        "input_tokens": 1143,
+        "output_tokens": 74,
+        "usd": 0.00605
+      },
+      "error": null
+    },
+    {
+      "id": "S09",
+      "instance": 0,
+      "reference": [
+        "THANKYOU",
+        "HELP",
+        "ME"
+      ],
+      "reference_english": "Thank you for helping me.",
+      "top1": [
+        "THANKYOU",
+        "HELP",
+        "ME",
+        "ME"
+      ],
+      "llm": [
+        "THANKYOU",
+        "HELP",
+        "ME"
+      ],
+      "english": "Thank you for helping me.",
+      "edits_top1": 1,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "THANKYOU",
+            0.997
+          ],
+          [
+            "WANT1",
+            0.0
+          ],
+          [
+            "ME",
+            0.0
+          ],
+          [
+            "NO",
+            0.0
+          ],
+          [
+            "HELP",
+            0.0
+          ]
+        ],
+        [
+          [
+            "HELP",
+            0.997
+          ],
+          [
+            "LEARN",
+            0.001
+          ],
+          [
+            "NICE",
+            0.0
+          ],
+          [
+            "WANT1",
+            0.0
+          ],
+          [
+            "SCHOOL",
+            0.0
+          ]
+        ],
+        [
+          [
+            "ME",
+            0.995
+          ],
+          [
+            "YOU",
+            0.002
+          ],
+          [
+            "TOMORROW",
+            0.001
+          ],
+          [
+            "LEARN",
+            0.0
+          ],
+          [
+            "HELP",
+            0.0
+          ]
+        ],
+        [
+          [
+            "ME",
+            0.997
+          ],
+          [
+            "TOMORROW",
+            0.001
+          ],
+          [
+            "PIZZA2",
+            0.0
+          ],
+          [
+            "DRINK1",
+            0.0
+          ],
+          [
+            "YOU",
+            0.0
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 2.06,
+        "input_tokens": 1121,
+        "output_tokens": 64,
+        "usd": 0.00576
+      },
+      "error": null
+    },
+    {
+      "id": "S09",
+      "instance": 1,
+      "reference": [
+        "THANKYOU",
+        "HELP",
+        "ME"
+      ],
+      "reference_english": "Thank you for helping me.",
+      "top1": [
+        "THANKYOU",
+        "HELP",
+        "ME",
+        "ME"
+      ],
+      "llm": [
+        "THANKYOU",
+        "HELP",
+        "ME"
+      ],
+      "english": "Thank you for helping me.",
+      "edits_top1": 1,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "THANKYOU",
+            0.998
+          ],
+          [
+            "HELP",
+            0.0
+          ],
+          [
+            "ME",
+            0.0
+          ],
+          [
+            "NO",
+            0.0
+          ],
+          [
+            "WANT1",
+            0.0
+          ]
+        ],
+        [
+          [
+            "HELP",
+            0.989
+          ],
+          [
+            "LEARN",
+            0.002
+          ],
+          [
+            "COFFEE",
+            0.002
+          ],
+          [
+            "WATCH",
+            0.002
+          ],
+          [
+            "WANT1",
+            0.001
+          ]
+        ],
+        [
+          [
+            "ME",
+            0.997
+          ],
+          [
+            "TOMORROW",
+            0.001
+          ],
+          [
+            "YOU",
+            0.001
+          ],
+          [
+            "DRINK1",
+            0.0
+          ],
+          [
+            "LEARN",
+            0.0
+          ]
+        ],
+        [
+          [
+            "ME",
+            0.993
+          ],
+          [
+            "TOMORROW",
+            0.004
+          ],
+          [
+            "PIZZA2",
+            0.001
+          ],
+          [
+            "HELP",
+            0.0
+          ],
+          [
+            "WANT1",
+            0.0
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.93,
+        "input_tokens": 1122,
+        "output_tokens": 64,
+        "usd": 0.00577
+      },
+      "error": null
+    },
+    {
+      "id": "S09",
+      "instance": 2,
+      "reference": [
+        "THANKYOU",
+        "HELP",
+        "ME"
+      ],
+      "reference_english": "Thank you for helping me.",
+      "top1": [
+        "HELP",
+        "HELP",
+        "ME"
+      ],
+      "llm": [
+        "HELP",
+        "ME"
+      ],
+      "english": "Help me.",
+      "edits_top1": 1,
+      "edits_llm": 1,
+      "candidates": [
+        [
+          [
+            "HELP",
+            0.801
+          ],
+          [
+            "NICE",
+            0.112
+          ],
+          [
+            "MY",
+            0.038
+          ],
+          [
+            "SCHOOL",
+            0.02
+          ],
+          [
+            "THANKYOU",
+            0.009
+          ]
+        ],
+        [
+          [
+            "HELP",
+            0.992
+          ],
+          [
+            "NICE",
+            0.003
+          ],
+          [
+            "LEARN",
+            0.001
+          ],
+          [
+            "PLEASE",
+            0.001
+          ],
+          [
+            "HUNGRY",
+            0.001
+          ]
+        ],
+        [
+          [
+            "ME",
+            0.988
+          ],
+          [
+            "PLEASE",
+            0.003
+          ],
+          [
+            "HUNGRY",
+            0.002
+          ],
+          [
+            "YOU",
+            0.001
+          ],
+          [
+            "LIKE",
+            0.001
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.93,
+        "input_tokens": 1067,
+        "output_tokens": 53,
+        "usd": 0.00533
+      },
+      "error": null
+    },
+    {
+      "id": "S09",
+      "instance": 3,
+      "reference": [
+        "THANKYOU",
+        "HELP",
+        "ME"
+      ],
+      "reference_english": "Thank you for helping me.",
+      "top1": [
+        "HELP",
+        "HELP"
+      ],
+      "llm": [
+        "HELP"
+      ],
+      "english": "Help!",
+      "edits_top1": 2,
+      "edits_llm": 2,
+      "candidates": [
+        [
+          [
+            "HELP",
+            0.703
+          ],
+          [
+            "SCHOOL",
+            0.121
+          ],
+          [
+            "NICE",
+            0.082
+          ],
+          [
+            "MY",
+            0.055
+          ],
+          [
+            "THANKYOU",
+            0.009
+          ]
+        ],
+        [
+          [
+            "HELP",
+            0.995
+          ],
+          [
+            "THANKYOU",
+            0.001
+          ],
+          [
+            "LEARN",
+            0.001
+          ],
+          [
+            "NICE",
+            0.001
+          ],
+          [
+            "PLEASE",
+            0.0
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.6,
+        "input_tokens": 1009,
+        "output_tokens": 49,
+        "usd": 0.00502
+      },
+      "error": null
+    },
+    {
+      "id": "S09",
+      "instance": 4,
+      "reference": [
+        "THANKYOU",
+        "HELP",
+        "ME"
+      ],
+      "reference_english": "Thank you for helping me.",
+      "top1": [
+        "HELP",
+        "ME"
+      ],
+      "llm": [
+        "HELP",
+        "ME"
+      ],
+      "english": "Help me.",
+      "edits_top1": 1,
+      "edits_llm": 1,
+      "candidates": [
+        [
+          [
+            "HELP",
+            0.991
+          ],
+          [
+            "THANKYOU",
+            0.002
+          ],
+          [
+            "PLEASE",
+            0.002
+          ],
+          [
+            "NICE",
+            0.001
+          ],
+          [
+            "MOVIE1",
+            0.001
+          ]
+        ],
+        [
+          [
+            "ME",
+            0.992
+          ],
+          [
+            "YOU",
+            0.001
+          ],
+          [
+            "PLEASE",
+            0.001
+          ],
+          [
+            "LIKE",
+            0.001
+          ],
+          [
+            "HUNGRY",
+            0.001
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.87,
+        "input_tokens": 1011,
+        "output_tokens": 51,
+        "usd": 0.00506
+      },
+      "error": null
+    },
+    {
+      "id": "S10",
+      "instance": 0,
+      "reference": [
+        "MY",
+        "FRIEND",
+        "LEARN",
+        "SIGN"
+      ],
+      "reference_english": "My friend is learning sign language.",
+      "top1": [
+        "MY",
+        "FRIEND",
+        "LEARN",
+        "SIGN"
+      ],
+      "llm": [
+        "MY",
+        "FRIEND",
+        "LEARN",
+        "SIGN"
+      ],
+      "english": "My friend is learning sign language.",
+      "edits_top1": 0,
+      "edits_llm": 0,
+      "candidates": [
+        [
+          [
+            "MY",
+            0.993
+          ],
+          [
+            "NICE",
+            0.002
+          ],
+          [
+            "LEARN",
+            0.001
+          ],
+          [
+            "PLEASE",
+            0.001
+          ],
+          [
+            "TOMORROW",
+            0.001
+          ]
+        ],
+        [
+          [
+            "FRIEND",
+            0.996
+          ],
+          [
+            "MEET",
+            0.001
+          ],
+          [
+            "SIGN",
+            0.0
+          ],
+          [
+            "LIKE",
+            0.0
+          ],
+          [
+            "MY",
+            0.0
+          ]
+        ],
+        [
+          [
+            "LEARN",
+            0.997
+          ],
+          [
+            "NICE",
+            0.001
+          ],
+          [
+            "HELP",
+            0.001
+          ],
+          [
+            "SICK",
+            0.0
+          ],
+          [
+            "MY",
+            0.0
+          ]
+        ],
+        [
+          [
+            "SIGN",
+            0.983
+          ],
+          [
+            "LEARN",
+            0.01
+          ],
+          [
+            "HELP",
+            0.001
+          ],
+          [
+            "FRIEND",
+            0.001
+          ],
+          [
+            "ME",
+            0.001
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.92,
+        "input_tokens": 1115,
+        "output_tokens": 69,
+        "usd": 0.00584
+      },
+      "error": null
+    },
+    {
+      "id": "S10",
+      "instance": 1,
+      "reference": [
+        "MY",
+        "FRIEND",
+        "LEARN",
+        "SIGN"
+      ],
+      "reference_english": "My friend is learning sign language.",
+      "top1": [
+        "MY",
+        "FRIEND",
+        "SIGN"
+      ],
+      "llm": [
+        "MY",
+        "FRIEND",
+        "SIGN"
+      ],
+      "english": "My friend signs.",
+      "edits_top1": 1,
+      "edits_llm": 1,
+      "candidates": [
+        [
+          [
+            "MY",
+            0.938
+          ],
+          [
+            "SCHOOL",
+            0.043
+          ],
+          [
+            "NICE",
+            0.006
+          ],
+          [
+            "MOVIE1",
+            0.002
+          ],
+          [
+            "PLEASE",
+            0.002
+          ]
+        ],
+        [
+          [
+            "FRIEND",
+            0.9
+          ],
+          [
+            "GO",
+            0.083
+          ],
+          [
+            "COFFEE",
+            0.005
+          ],
+          [
+            "TOMORROW",
+            0.002
+          ],
+          [
+            "MY",
+            0.002
+          ]
+        ],
+        [
+          [
+            "SIGN",
+            0.995
+          ],
+          [
+            "LEARN",
+            0.003
+          ],
+          [
+            "ME",
+            0.0
+          ],
+          [
+            "BATHROOM",
+            0.0
+          ],
+          [
+            "FRIEND",
+            0.0
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.65,
+        "input_tokens": 1069,
+        "output_tokens": 60,
+        "usd": 0.00548
+      },
+      "error": null
+    },
+    {
+      "id": "S10",
+      "instance": 2,
+      "reference": [
+        "MY",
+        "FRIEND",
+        "LEARN",
+        "SIGN"
+      ],
+      "reference_english": "My friend is learning sign language.",
+      "top1": [
+        "MY",
+        "FRIEND",
+        "FRIEND",
+        "SIGN"
+      ],
+      "llm": [
+        "MY",
+        "FRIEND",
+        "SIGN"
+      ],
+      "english": "My friend signs.",
+      "edits_top1": 1,
+      "edits_llm": 1,
+      "candidates": [
+        [
+          [
+            "MY",
+            0.883
+          ],
+          [
+            "PLEASE",
+            0.075
+          ],
+          [
+            "SCHOOL",
+            0.01
+          ],
+          [
+            "MOVIE1",
+            0.008
+          ],
+          [
+            "MOTHER",
+            0.004
+          ]
+        ],
+        [
+          [
+            "FRIEND",
+            0.573
+          ],
+          [
+            "GO",
+            0.401
+          ],
+          [
+            "COFFEE",
+            0.006
+          ],
+          [
+            "LIKE",
+            0.003
+          ],
+          [
+            "TOMORROW",
+            0.002
+          ]
+        ],
+        [
+          [
+            "FRIEND",
+            0.573
+          ],
+          [
+            "GO",
+            0.401
+          ],
+          [
+            "COFFEE",
+            0.006
+          ],
+          [
+            "LIKE",
+            0.003
+          ],
+          [
+            "TOMORROW",
+            0.002
+          ]
+        ],
+        [
+          [
+            "SIGN",
+            0.991
+          ],
+          [
+            "LEARN",
+            0.004
+          ],
+          [
+            "BATHROOM",
+            0.001
+          ],
+          [
+            "YESTERDAY",
+            0.001
+          ],
+          [
+            "TOMORROW",
+            0.0
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.61,
+        "input_tokens": 1139,
+        "output_tokens": 62,
+        "usd": 0.0058
+      },
+      "error": null
+    },
+    {
+      "id": "S10",
+      "instance": 3,
+      "reference": [
+        "MY",
+        "FRIEND",
+        "LEARN",
+        "SIGN"
+      ],
+      "reference_english": "My friend is learning sign language.",
+      "top1": [
+        "MY",
+        "FRIEND",
+        "SIGN"
+      ],
+      "llm": [
+        "MY",
+        "FRIEND",
+        "SIGN"
+      ],
+      "english": "My friend signs.",
+      "edits_top1": 1,
+      "edits_llm": 1,
+      "candidates": [
+        [
+          [
+            "MY",
+            0.877
+          ],
+          [
+            "PLEASE",
+            0.068
+          ],
+          [
+            "SCHOOL",
+            0.025
+          ],
+          [
+            "LIKE",
+            0.006
+          ],
+          [
+            "TOMORROW",
+            0.003
+          ]
+        ],
+        [
+          [
+            "FRIEND",
+            0.847
+          ],
+          [
+            "GO",
+            0.123
+          ],
+          [
+            "COFFEE",
+            0.006
+          ],
+          [
+            "TOMORROW",
+            0.005
+          ],
+          [
+            "MY",
+            0.004
+          ]
+        ],
+        [
+          [
+            "SIGN",
+            0.993
+          ],
+          [
+            "LEARN",
+            0.003
+          ],
+          [
+            "ME",
+            0.001
+          ],
+          [
+            "FRIEND",
+            0.0
+          ],
+          [
+            "BATHROOM",
+            0.0
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 1.89,
+        "input_tokens": 1070,
+        "output_tokens": 60,
+        "usd": 0.00548
+      },
+      "error": null
+    },
+    {
+      "id": "S10",
+      "instance": 4,
+      "reference": [
+        "MY",
+        "FRIEND",
+        "LEARN",
+        "SIGN"
+      ],
+      "reference_english": "My friend is learning sign language.",
+      "top1": [
+        "MY",
+        "FRIEND",
+        "SIGN"
+      ],
+      "llm": [
+        "MY",
+        "FRIEND",
+        "SIGN"
+      ],
+      "english": "My friend signs.",
+      "edits_top1": 1,
+      "edits_llm": 1,
+      "candidates": [
+        [
+          [
+            "MY",
+            0.927
+          ],
+          [
+            "PLEASE",
+            0.046
+          ],
+          [
+            "SCHOOL",
+            0.007
+          ],
+          [
+            "MOTHER",
+            0.004
+          ],
+          [
+            "LIKE",
+            0.003
+          ]
+        ],
+        [
+          [
+            "FRIEND",
+            0.83
+          ],
+          [
+            "GO",
+            0.13
+          ],
+          [
+            "COFFEE",
+            0.012
+          ],
+          [
+            "TOMORROW",
+            0.007
+          ],
+          [
+            "MY",
+            0.005
+          ]
+        ],
+        [
+          [
+            "SIGN",
+            0.989
+          ],
+          [
+            "LEARN",
+            0.006
+          ],
+          [
+            "BATHROOM",
+            0.001
+          ],
+          [
+            "ME",
+            0.001
+          ],
+          [
+            "YESTERDAY",
+            0.0
+          ]
+        ]
+      ],
+      "usage": {
+        "seconds": 2.0,
+        "input_tokens": 1071,
+        "output_tokens": 60,
+        "usd": 0.00548
+      },
+      "error": null
+    }
+  ]
+}

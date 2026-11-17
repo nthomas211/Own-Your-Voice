@@ -1,0 +1,293 @@
+{
+  "clips_checked": 32940,
+  "extraction_failures": 1,
+  "failure_reasons": [
+    [
+      "Only 0 frames had detected landmarks in /home/cc/data/ASL_Citizen/videos/0742807",
+      1
+    ]
+  ],
+  "status": {
+    "good": 31150,
+    "warn": 1751,
+    "bad": 39
+  },
+  "status_pct": {
+    "good": 94.57,
+    "warn": 5.32,
+    "bad": 0.12
+  },
+  "flags": {
+    "few_hands": 939,
+    "jittery_hands": 519,
+    "hands_crossed_or_swapped": 372,
+    "no_hands": 39,
+    "too_short": 12,
+    "few_face": 2
+  },
+  "distributions": {
+    "frames": {
+      "p1": 26.0,
+      "p5": 36.0,
+      "p25": 55.0,
+      "p50": 74.0,
+      "p75": 92.0,
+      "p95": 135.0
+    },
+    "hand_frac": {
+      "p1": 0.185,
+      "p5": 0.278,
+      "p25": 0.382,
+      "p50": 0.455,
+      "p75": 0.538,
+      "p95": 0.693
+    },
+    "face_frac": {
+      "p1": 0.951,
+      "p5": 1.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0
+    },
+    "nose_frac": {
+      "p1": 0.988,
+      "p5": 1.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0
+    },
+    "slotL_frac": {
+      "p1": 0.0,
+      "p5": 0.0,
+      "p25": 0.261,
+      "p50": 0.366,
+      "p75": 0.449,
+      "p95": 0.591
+    },
+    "slotR_frac": {
+      "p1": 0.0,
+      "p5": 0.0,
+      "p25": 0.169,
+      "p50": 0.36,
+      "p75": 0.464,
+      "p95": 0.629
+    },
+    "hand_jump_frac": {
+      "p1": 0.0,
+      "p5": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.053
+    },
+    "crossed_frac": {
+      "p1": 0.0,
+      "p5": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.019
+    }
+  },
+  "worst_signers": [
+    {
+      "key": "P22",
+      "clips": 2997,
+      "bad_pct": 0.5,
+      "warn_pct": 3.3,
+      "mean_hand_frac": 0.549
+    },
+    {
+      "key": "P18",
+      "clips": 2998,
+      "bad_pct": 0.3,
+      "warn_pct": 14.9,
+      "mean_hand_frac": 0.342
+    },
+    {
+      "key": "P49",
+      "clips": 3000,
+      "bad_pct": 0.2,
+      "warn_pct": 4.0,
+      "mean_hand_frac": 0.542
+    },
+    {
+      "key": "P42",
+      "clips": 2996,
+      "bad_pct": 0.1,
+      "warn_pct": 10.0,
+      "mean_hand_frac": 0.392
+    },
+    {
+      "key": "P15",
+      "clips": 3000,
+      "bad_pct": 0.1,
+      "warn_pct": 3.8,
+      "mean_hand_frac": 0.425
+    },
+    {
+      "key": "P6",
+      "clips": 2993,
+      "bad_pct": 0.0,
+      "warn_pct": 5.4,
+      "mean_hand_frac": 0.477
+    },
+    {
+      "key": "P9",
+      "clips": 2988,
+      "bad_pct": 0.0,
+      "warn_pct": 4.7,
+      "mean_hand_frac": 0.477
+    },
+    {
+      "key": "P48",
+      "clips": 2999,
+      "bad_pct": 0.0,
+      "warn_pct": 4.6,
+      "mean_hand_frac": 0.423
+    },
+    {
+      "key": "P17",
+      "clips": 3000,
+      "bad_pct": 0.0,
+      "warn_pct": 4.1,
+      "mean_hand_frac": 0.517
+    },
+    {
+      "key": "P35",
+      "clips": 3003,
+      "bad_pct": 0.0,
+      "warn_pct": 2.4,
+      "mean_hand_frac": 0.575
+    },
+    {
+      "key": "P47",
+      "clips": 2966,
+      "bad_pct": 0.0,
+      "warn_pct": 1.2,
+      "mean_hand_frac": 0.418
+    }
+  ],
+  "worst_glosses": [
+    {
+      "key": "INTUITIVE",
+      "clips": 10,
+      "bad_pct": 10.0,
+      "warn_pct": 30.0,
+      "mean_hand_frac": 0.295
+    },
+    {
+      "key": "NOTMIND",
+      "clips": 10,
+      "bad_pct": 10.0,
+      "warn_pct": 0.0,
+      "mean_hand_frac": 0.406
+    },
+    {
+      "key": "HAIR1",
+      "clips": 10,
+      "bad_pct": 10.0,
+      "warn_pct": 0.0,
+      "mean_hand_frac": 0.442
+    },
+    {
+      "key": "INSTINCT",
+      "clips": 11,
+      "bad_pct": 9.1,
+      "warn_pct": 9.1,
+      "mean_hand_frac": 0.324
+    },
+    {
+      "key": "DIRTY",
+      "clips": 11,
+      "bad_pct": 9.1,
+      "warn_pct": 9.1,
+      "mean_hand_frac": 0.399
+    },
+    {
+      "key": "PROXIMALIZATION",
+      "clips": 11,
+      "bad_pct": 9.1,
+      "warn_pct": 0.0,
+      "mean_hand_frac": 0.375
+    },
+    {
+      "key": "ARRIVE",
+      "clips": 11,
+      "bad_pct": 9.1,
+      "warn_pct": 0.0,
+      "mean_hand_frac": 0.401
+    },
+    {
+      "key": "FOREST",
+      "clips": 11,
+      "bad_pct": 9.1,
+      "warn_pct": 0.0,
+      "mean_hand_frac": 0.406
+    },
+    {
+      "key": "BANDAID2",
+      "clips": 11,
+      "bad_pct": 9.1,
+      "warn_pct": 0.0,
+      "mean_hand_frac": 0.418
+    },
+    {
+      "key": "AGENCY",
+      "clips": 11,
+      "bad_pct": 9.1,
+      "warn_pct": 0.0,
+      "mean_hand_frac": 0.443
+    },
+    {
+      "key": "BLEED",
+      "clips": 11,
+      "bad_pct": 9.1,
+      "warn_pct": 0.0,
+      "mean_hand_frac": 0.447
+    },
+    {
+      "key": "COMB2",
+      "clips": 11,
+      "bad_pct": 9.1,
+      "warn_pct": 0.0,
+      "mean_hand_frac": 0.477
+    },
+    {
+      "key": "SERVE1",
+      "clips": 12,
+      "bad_pct": 8.3,
+      "warn_pct": 41.7,
+      "mean_hand_frac": 0.418
+    },
+    {
+      "key": "FLOOR",
+      "clips": 12,
+      "bad_pct": 8.3,
+      "warn_pct": 33.3,
+      "mean_hand_frac": 0.356
+    },
+    {
+      "key": "SPEND",
+      "clips": 12,
+      "bad_pct": 8.3,
+      "warn_pct": 16.7,
+      "mean_hand_frac": 0.335
+    }
+  ],
+  "signers": 11,
+  "glosses": 2731,
+  "manifest_lines": 32941,
+  "thresholds": {
+    "min_hand_frac": 0.25,
+    "min_face_frac": 0.5,
+    "max_jump_frac": 0.1,
+    "jump_dist": 0.15,
+    "max_crossed_frac": 0.5,
+    "max_out_of_range": 0.05,
+    "min_frames": 10,
+    "max_frames": 600
+  }
+}

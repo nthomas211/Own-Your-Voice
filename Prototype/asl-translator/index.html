@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SignBridge – ASL to English</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo" aria-hidden="true">🤟</span>
+      <span>SignBridge</span>
+      <span class="sub">ASL → English</span>
+    </div>
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-tab="translate" role="tab">Translate</button>
+      <button class="tab" data-tab="teach" role="tab">Teach signs <span id="vocabCount" class="badge">0</span></button>
+      <button class="tab" data-tab="settings" role="tab">Settings</button>
+    </nav>
+  </header>
+
+  <main>
+    <div class="langbar">
+      <div class="lang">American Sign Language <span class="muted">(camera)</span></div>
+      <div class="arrow" aria-hidden="true">→</div>
+      <div class="lang">English</div>
+    </div>
+
+    <div class="panes">
+      <!-- LEFT: camera -->
+      <section class="pane camera-pane">
+        <div class="stage" id="stage">
+          <video id="video" playsinline muted></video>
+          <canvas id="overlay"></canvas>
+          <div id="statusPill" class="pill">Camera off</div>
+          <div id="countdown" class="countdown hidden"></div>
+          <div id="flash" class="flash hidden"></div>
+          <div id="startOverlay" class="start-overlay">
+            <button id="startBtn" class="primary big">📷 Start camera</button>
+            <p id="loadMsg" class="muted">Video is processed on this device. Nothing is uploaded.</p>
+          </div>
+        </div>
+        <div class="motion-meter" title="Hand motion"><div id="motionBar"></div></div>
+        <div class="cam-actions">
+          <button id="doneBtn" title="Shortcut: Space">✋ End sign now</button>
+          <button id="newSentenceBtn" title="Shortcut: Enter">↵ New sentence</button>
+        </div>
+      </section>
+
+      <!-- RIGHT: translate / teach / settings -->
+      <section class="pane output-pane">
+        <!-- TRANSLATE -->
+        <div class="view" id="view-translate">
+          <div id="english" class="english placeholder">Sign to the camera…</div>
+          <div class="gloss-row">
+            <span class="label">ASL gloss:</span>
+            <div id="gloss" class="gloss"></div>
+          </div>
+          <div id="candidatesBox" class="candidates hidden">
+            <span class="label">Did you mean:</span>
+            <div id="candidates"></div>
+            <span class="muted small">Tapping a choice fixes the word and teaches the app.</span>
+          </div>
+          <div class="out-actions">
+            <button id="speakBtn" title="Read aloud">🔊 Speak</button>
+            <button id="copyBtn" title="Copy">📋 Copy</button>
+            <button id="undoBtn" title="Remove last word (Backspace)">⌫ Undo word</button>
+            <button id="clearBtn" title="Clear all">🗑 Clear</button>
+          </div>
+          <div id="emptyHint" class="hint">
+            <strong>First time?</strong> The translator recognizes the signs <em>you</em> teach it, so it
+            learns your signing style. Open <a href="#" data-goto="teach">Teach signs</a>, record a few
+            examples of each word (or import a vocabulary file), then come back here and sign.
+          </div>
+          <ul id="log" class="log"></ul>
+        </div>
+
+        <!-- TEACH -->
+        <div class="view hidden" id="view-teach">
+          <h2>Teach a sign</h2>
+          <div class="teach-form">
+            <input id="wordInput" list="wordList" placeholder="English word or phrase (e.g. HELLO)" autocomplete="off" />
+            <datalist id="wordList"></datalist>
+            <label class="inline">×<input id="repeatInput" type="number" min="1" max="20" value="5" /> examples</label>
+            <button id="recordBtn" class="primary">● Record</button>
+          </div>
+          <p id="teachHelp" class="muted small">
+            After the countdown, sign the word once, then lower your hands or hold still. Each example is captured
+            automatically. Vary your position and speed a little between examples. 5 or more per word gives the best results.
+          </p>
+          <div id="howTo" class="howto hidden"></div>
+
+          <div class="vocab-head">
+            <h3>Your vocabulary</h3>
+            <div class="vocab-actions">
+              <button id="evalBtn">✔ Test accuracy</button>
+              <button id="exportBtn">⬇ Export</button>
+              <label class="button">⬆ Import<input id="importInput" type="file" accept=".json,application/json" hidden /></label>
+              <button id="resetBtn" class="danger">Delete all</button>
+            </div>
+          </div>
+          <div id="evalResult" class="eval hidden"></div>
+          <div id="vocab" class="vocab"></div>
+
+          <details class="starter">
+            <summary>Starter word list with signing tips</summary>
+            <div id="starterList" class="starter-list"></div>
+          </details>
+        </div>
+
+        <!-- SETTINGS -->
+        <div class="view hidden" id="view-settings">
+          <h2>Settings</h2>
+          <label class="setting">
+            <span>Motion sensitivity <small class="muted">(how still your hands must be to end a sign)</small></span>
+            <input id="sensitivity" type="range" min="0.02" max="0.2" step="0.01" value="0.06" />
+          </label>
+          <label class="setting">
+            <span>Hold time to end a sign <small class="muted" id="holdLabel"></small></span>
+            <input id="holdMs" type="range" min="150" max="900" step="50" value="350" />
+          </label>
+          <label class="setting">
+            <span>Match strictness <small class="muted">(higher = fewer wrong guesses, more "?")</small></span>
+            <input id="strictness" type="range" min="0.6" max="1.6" step="0.05" value="1" />
+          </label>
+          <label class="setting check"><input id="autoSpeak" type="checkbox" /> Speak each sentence aloud automatically</label>
+          <label class="setting check"><input id="showSkeleton" type="checkbox" checked /> Show hand tracking overlay</label>
+          <label class="setting check"><input id="useTwoHands" type="checkbox" checked /> Track two hands</label>
+          <label class="setting">
+            <span>Camera</span>
+            <select id="cameraSelect"><option value="">Default camera</option></select>
+          </label>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="foot muted small">
+    Recognition runs locally with MediaPipe hand &amp; pose tracking and a few-shot sign matcher (DTW nearest-neighbour).
+    It is a communication aid, not a substitute for a qualified interpreter.
+  </footer>
+
+  <div id="toast" class="toast hidden"></div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,316 @@
+{
+  "clips_checked": 40154,
+  "extraction_failures": 0,
+  "failure_reasons": [],
+  "status": {
+    "good": 37395,
+    "warn": 2740,
+    "bad": 19
+  },
+  "status_pct": {
+    "good": 93.13,
+    "warn": 6.82,
+    "bad": 0.05
+  },
+  "flags": {
+    "few_hands": 1815,
+    "jittery_hands": 527,
+    "hands_crossed_or_swapped": 477,
+    "no_hands": 19,
+    "few_face": 4,
+    "too_long": 3
+  },
+  "distributions": {
+    "frames": {
+      "p1": 40.0,
+      "p5": 46.0,
+      "p25": 59.0,
+      "p50": 75.0,
+      "p75": 97.0,
+      "p95": 168.0
+    },
+    "hand_frac": {
+      "p1": 0.181,
+      "p5": 0.254,
+      "p25": 0.37,
+      "p50": 0.442,
+      "p75": 0.511,
+      "p95": 0.627
+    },
+    "face_frac": {
+      "p1": 0.927,
+      "p5": 0.993,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0
+    },
+    "nose_frac": {
+      "p1": 0.986,
+      "p5": 1.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0
+    },
+    "slotL_frac": {
+      "p1": 0.0,
+      "p5": 0.025,
+      "p25": 0.292,
+      "p50": 0.38,
+      "p75": 0.455,
+      "p95": 0.552
+    },
+    "slotR_frac": {
+      "p1": 0.0,
+      "p5": 0.0,
+      "p25": 0.04,
+      "p50": 0.319,
+      "p75": 0.43,
+      "p95": 0.564
+    },
+    "hand_jump_frac": {
+      "p1": 0.0,
+      "p5": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.048
+    },
+    "crossed_frac": {
+      "p1": 0.0,
+      "p5": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0
+    }
+  },
+  "worst_signers": [
+    {
+      "key": "P41",
+      "clips": 7,
+      "bad_pct": 14.3,
+      "warn_pct": 42.9,
+      "mean_hand_frac": 0.219
+    },
+    {
+      "key": "P28",
+      "clips": 322,
+      "bad_pct": 1.2,
+      "warn_pct": 53.1,
+      "mean_hand_frac": 0.245
+    },
+    {
+      "key": "P3",
+      "clips": 109,
+      "bad_pct": 0.9,
+      "warn_pct": 1.8,
+      "mean_hand_frac": 0.526
+    },
+    {
+      "key": "P7",
+      "clips": 1195,
+      "bad_pct": 0.1,
+      "warn_pct": 16.4,
+      "mean_hand_frac": 0.424
+    },
+    {
+      "key": "P29",
+      "clips": 2933,
+      "bad_pct": 0.1,
+      "warn_pct": 9.5,
+      "mean_hand_frac": 0.375
+    },
+    {
+      "key": "P14",
+      "clips": 1755,
+      "bad_pct": 0.1,
+      "warn_pct": 5.8,
+      "mean_hand_frac": 0.453
+    },
+    {
+      "key": "P31",
+      "clips": 2971,
+      "bad_pct": 0.1,
+      "warn_pct": 4.4,
+      "mean_hand_frac": 0.51
+    },
+    {
+      "key": "P16",
+      "clips": 2149,
+      "bad_pct": 0.1,
+      "warn_pct": 2.2,
+      "mean_hand_frac": 0.52
+    },
+    {
+      "key": "P43",
+      "clips": 901,
+      "bad_pct": 0.1,
+      "warn_pct": 1.6,
+      "mean_hand_frac": 0.495
+    },
+    {
+      "key": "P44",
+      "clips": 42,
+      "bad_pct": 0.0,
+      "warn_pct": 28.6,
+      "mean_hand_frac": 0.291
+    },
+    {
+      "key": "P52",
+      "clips": 2728,
+      "bad_pct": 0.0,
+      "warn_pct": 25.1,
+      "mean_hand_frac": 0.361
+    },
+    {
+      "key": "P46",
+      "clips": 374,
+      "bad_pct": 0.0,
+      "warn_pct": 20.9,
+      "mean_hand_frac": 0.38
+    },
+    {
+      "key": "P2",
+      "clips": 221,
+      "bad_pct": 0.0,
+      "warn_pct": 12.7,
+      "mean_hand_frac": 0.416
+    },
+    {
+      "key": "P36",
+      "clips": 380,
+      "bad_pct": 0.0,
+      "warn_pct": 11.8,
+      "mean_hand_frac": 0.413
+    },
+    {
+      "key": "P38",
+      "clips": 120,
+      "bad_pct": 0.0,
+      "warn_pct": 11.7,
+      "mean_hand_frac": 0.37
+    }
+  ],
+  "worst_glosses": [
+    {
+      "key": "RECENT2",
+      "clips": 11,
+      "bad_pct": 9.1,
+      "warn_pct": 9.1,
+      "mean_hand_frac": 0.363
+    },
+    {
+      "key": "DARK2",
+      "clips": 11,
+      "bad_pct": 9.1,
+      "warn_pct": 9.1,
+      "mean_hand_frac": 0.432
+    },
+    {
+      "key": "LUNCH2",
+      "clips": 12,
+      "bad_pct": 8.3,
+      "warn_pct": 33.3,
+      "mean_hand_frac": 0.343
+    },
+    {
+      "key": "MOVIE2",
+      "clips": 12,
+      "bad_pct": 8.3,
+      "warn_pct": 16.7,
+      "mean_hand_frac": 0.378
+    },
+    {
+      "key": "BAD",
+      "clips": 13,
+      "bad_pct": 7.7,
+      "warn_pct": 30.8,
+      "mean_hand_frac": 0.323
+    },
+    {
+      "key": "HONEY2",
+      "clips": 13,
+      "bad_pct": 7.7,
+      "warn_pct": 0.0,
+      "mean_hand_frac": 0.458
+    },
+    {
+      "key": "TURBAN",
+      "clips": 14,
+      "bad_pct": 7.1,
+      "warn_pct": 35.7,
+      "mean_hand_frac": 0.307
+    },
+    {
+      "key": "RIGHT2",
+      "clips": 14,
+      "bad_pct": 7.1,
+      "warn_pct": 14.3,
+      "mean_hand_frac": 0.351
+    },
+    {
+      "key": "PENGUIN",
+      "clips": 14,
+      "bad_pct": 7.1,
+      "warn_pct": 14.3,
+      "mean_hand_frac": 0.37
+    },
+    {
+      "key": "STOMACH",
+      "clips": 14,
+      "bad_pct": 7.1,
+      "warn_pct": 7.1,
+      "mean_hand_frac": 0.396
+    },
+    {
+      "key": "SMOKE",
+      "clips": 14,
+      "bad_pct": 7.1,
+      "warn_pct": 0.0,
+      "mean_hand_frac": 0.416
+    },
+    {
+      "key": "GETINFORMATIONOUTOF",
+      "clips": 14,
+      "bad_pct": 7.1,
+      "warn_pct": 0.0,
+      "mean_hand_frac": 0.439
+    },
+    {
+      "key": "LIFT2",
+      "clips": 14,
+      "bad_pct": 7.1,
+      "warn_pct": 0.0,
+      "mean_hand_frac": 0.449
+    },
+    {
+      "key": "BAT2",
+      "clips": 15,
+      "bad_pct": 6.7,
+      "warn_pct": 46.7,
+      "mean_hand_frac": 0.441
+    },
+    {
+      "key": "AND",
+      "clips": 15,
+      "bad_pct": 6.7,
+      "warn_pct": 20.0,
+      "mean_hand_frac": 0.321
+    }
+  ],
+  "signers": 35,
+  "glosses": 2731,
+  "manifest_lines": 40154,
+  "thresholds": {
+    "min_hand_frac": 0.25,
+    "min_face_frac": 0.5,
+    "max_jump_frac": 0.1,
+    "jump_dist": 0.15,
+    "max_crossed_frac": 0.5,
+    "max_out_of_range": 0.05,
+    "min_frames": 10,
+    "max_frames": 600
+  }
+}

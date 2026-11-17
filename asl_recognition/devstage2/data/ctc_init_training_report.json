@@ -1,0 +1,209 @@
+{
+  "best_validation_wer": 0.3551336146272855,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 8.404543731689452,
+      "val_loss": 3.677688865661621,
+      "val_wer": 1.0,
+      "val_sentence_accuracy": 0.0
+    },
+    {
+      "epoch": 2,
+      "train_loss": 3.033133378982544,
+      "val_loss": 2.9831831741333006,
+      "val_wer": 1.0,
+      "val_sentence_accuracy": 0.0
+    },
+    {
+      "epoch": 3,
+      "train_loss": 2.1496453161239626,
+      "val_loss": 2.474683713912964,
+      "val_wer": 0.9085794655414908,
+      "val_sentence_accuracy": 0.005
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.5429510660171508,
+      "val_loss": 2.1602072811126707,
+      "val_wer": 0.7194092827004219,
+      "val_sentence_accuracy": 0.015
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.035483078956604,
+      "val_loss": 1.8486242198944092,
+      "val_wer": 0.5611814345991561,
+      "val_sentence_accuracy": 0.065
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.772085378408432,
+      "val_loss": 1.742990527153015,
+      "val_wer": 0.44233473980309423,
+      "val_sentence_accuracy": 0.115
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.6053673825263977,
+      "val_loss": 1.5202089691162108,
+      "val_wer": 0.44233473980309423,
+      "val_sentence_accuracy": 0.1275
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.4937008202075958,
+      "val_loss": 1.8465083694458009,
+      "val_wer": 0.4620253164556962,
+      "val_sentence_accuracy": 0.11
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.4050502543449402,
+      "val_loss": 1.631396427154541,
+      "val_wer": 0.45288326300984527,
+      "val_sentence_accuracy": 0.125
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.35427827715873716,
+      "val_loss": 1.4169346380233765,
+      "val_wer": 0.4177215189873418,
+      "val_sentence_accuracy": 0.1575
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.31877671092748644,
+      "val_loss": 1.3989248228073121,
+      "val_wer": 0.38677918424753865,
+      "val_sentence_accuracy": 0.17
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.2769869714975357,
+      "val_loss": 1.6572979831695556,
+      "val_wer": 0.42545710267229253,
+      "val_sentence_accuracy": 0.15
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.2706766722202301,
+      "val_loss": 1.4347626304626464,
+      "val_wer": 0.4057665260196906,
+      "val_sentence_accuracy": 0.19
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.23885399425029755,
+      "val_loss": 1.4990601229667664,
+      "val_wer": 0.4149085794655415,
+      "val_sentence_accuracy": 0.1825
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.22089096128940583,
+      "val_loss": 1.2396861624717712,
+      "val_wer": 0.3551336146272855,
+      "val_sentence_accuracy": 0.1825
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.20274331378936766,
+      "val_loss": 1.7310972023010254,
+      "val_wer": 0.4015471167369902,
+      "val_sentence_accuracy": 0.19
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.1855954722762108,
+      "val_loss": 1.5116636657714844,
+      "val_wer": 0.3720112517580872,
+      "val_sentence_accuracy": 0.2125
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.18592850878834724,
+      "val_loss": 1.487108142375946,
+      "val_wer": 0.38115330520393814,
+      "val_sentence_accuracy": 0.18
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.17186341018974782,
+      "val_loss": 1.9101437854766845,
+      "val_wer": 0.44233473980309423,
+      "val_sentence_accuracy": 0.1375
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.1691421737074852,
+      "val_loss": 1.4218375396728515,
+      "val_wer": 0.3691983122362869,
+      "val_sentence_accuracy": 0.1975
+    },
+    {
+      "epoch": 21,
+      "train_loss": 0.16491128152608872,
+      "val_loss": 1.8962101078033446,
+      "val_wer": 0.41350210970464135,
+      "val_sentence_accuracy": 0.1625
+    },
+    {
+      "epoch": 22,
+      "train_loss": 0.14744559364020823,
+      "val_loss": 1.680493426322937,
+      "val_wer": 0.38115330520393814,
+      "val_sentence_accuracy": 0.1775
+    },
+    {
+      "epoch": 23,
+      "train_loss": 0.15186654306948186,
+      "val_loss": 1.9185733079910279,
+      "val_wer": 0.409985935302391,
+      "val_sentence_accuracy": 0.1975
+    }
+  ],
+  "train_bank": {
+    "clips": 481,
+    "glosses": 32,
+    "signers": 29,
+    "frames": 39892
+  },
+  "validation_bank": {
+    "clips": 119,
+    "glosses": 32,
+    "signers": 5,
+    "frames": 9731
+  },
+  "args": {
+    "train_dir": "C:\\Users\\juliu\\Documents\\Computer VisionASL_Files\\Computer Vision ASL Recognition Files\\Dev_Stage1_project-backup-2026-10-04\\data\\asl_citizen\\keypoints\\train",
+    "validation_dir": "C:\\Users\\juliu\\Documents\\Computer VisionASL_Files\\Computer Vision ASL Recognition Files\\Dev_Stage1_project-backup-2026-10-04\\data\\asl_citizen\\keypoints\\validation",
+    "glosses": "C:\\Users\\juliu\\Documents\\Computer VisionASL_Files\\Computer Vision ASL Recognition Files\\Dev_Stage1_project-backup-2026-10-04\\experiments\\2026-11-13_vocab32\\glosses.txt",
+    "max_glosses": "None",
+    "corpus": "C:\\Users\\juliu\\Documents\\Computer VisionASL_Files\\Computer Vision ASL Recognition Files\\Dev_Stage1_project-backup-2026-10-04\\experiments\\2026-11-13_vocab32\\sentences.jsonl",
+    "corpus_probability": "0.5",
+    "init_from": "C:\\Users\\juliu\\Documents\\Computer VisionASL_Files\\Computer Vision ASL Recognition Files\\Dev_Stage1_project-backup-2026-10-04\\data\\asl_citizen\\runs\\2026-11-13_vocab32\\isolated_seed42\\best_model.pt",
+    "output_dir": "C:\\Users\\juliu\\Documents\\Computer VisionASL_Files\\Computer Vision ASL Recognition Files\\Dev_Stage1_project-backup-2026-10-04\\data\\asl_citizen\\runs\\2026-11-13_vocab32\\ctc_init",
+    "train_sentences": "2000",
+    "validation_sentences": "400",
+    "min_length": "2",
+    "max_length": "5",
+    "speed_min": "0.8",
+    "speed_max": "1.25",
+    "transition_min": "4",
+    "transition_max": "12",
+    "epochs": "25",
+    "patience": "8",
+    "batch_size": "16",
+    "learning_rate": "0.0003",
+    "hidden_size": "128",
+    "attention_heads": "4",
+    "transformer_layers": "4",
+    "dropout": "0.1",
+    "amplitude_jitter": "0.05",
+    "frame_dropout": "0.05",
+    "workers": "4",
+    "device": "cuda",
+    "seed": "42"
+  }
+}

@@ -1,0 +1,3681 @@
+{
+  "device": "cuda",
+  "model_type": "cnn_transformer",
+  "seed": 7,
+  "train_sample_count": 481,
+  "validation_sample_count": 119,
+  "class_count": 32,
+  "class_to_index": {
+    "BATHROOM": 0,
+    "COFFEE": 1,
+    "DRINK1": 2,
+    "EAT1": 3,
+    "FRIEND": 4,
+    "GO": 5,
+    "HELLO": 6,
+    "HELP": 7,
+    "HUNGRY": 8,
+    "LEARN": 9,
+    "LIKE": 10,
+    "ME": 11,
+    "MEET": 12,
+    "MOTHER": 13,
+    "MOVIE1": 14,
+    "MY": 15,
+    "NICE": 16,
+    "NO": 17,
+    "PIZZA2": 18,
+    "PLEASE": 19,
+    "SCHOOL": 20,
+    "SICK": 21,
+    "SIGN": 22,
+    "THANKYOU": 23,
+    "TOMORROW": 24,
+    "WANT1": 25,
+    "WATCH": 26,
+    "WATER": 27,
+    "WHERE": 28,
+    "YES": 29,
+    "YESTERDAY": 30,
+    "YOU": 31
+  },
+  "augmentation": {
+    "training_only": true,
+    "amplitude_jitter": 0.05,
+    "frame_dropout": 0.05,
+    "horizontal_flip": false
+  },
+  "best_epoch": 14,
+  "best_validation": {
+    "loss": 0.8302233519674349,
+    "top1_accuracy": 0.7478991596638656,
+    "top5_accuracy": 0.9411764705882353,
+    "macro_top1_accuracy": 0.7619791666666667,
+    "sample_count": 119,
+    "per_class": [
+      {
+        "gloss": "BATHROOM",
+        "support": 3,
+        "top1_accuracy": 1.0
+      },
+      {
+        "gloss": "COFFEE",
+        "support": 4,
+        "top1_accuracy": 1.0
+      },
+      {
+        "gloss": "DRINK1",
+        "support": 4,
+        "top1_accuracy": 0.5
+      },
+      {
+        "gloss": "EAT1",
+        "support": 4,
+        "top1_accuracy": 1.0
+      },
+      {
+        "gloss": "FRIEND",
+        "support": 3,
+        "top1_accuracy": 1.0
+      },
+      {
+        "gloss": "GO",
+        "support": 3,
+        "top1_accuracy": 1.0
+      },
+      {
+        "gloss": "HELLO",
+        "support": 4,
+        "top1_accuracy": 1.0
+      },
+      {
+        "gloss": "HELP",
+        "support": 5,
+        "top1_accuracy": 0.6
+      },
+      {
+        "gloss": "HUNGRY",
+        "support": 4,
+        "top1_accuracy": 0.25
+      },
+      {
+        "gloss": "LEARN",
+        "support": 4,
+        "top1_accuracy": 0.5
+      },
+      {
+        "gloss": "LIKE",
+        "support": 3,
+        "top1_accuracy": 0.3333333333333333
+      },
+      {
+        "gloss": "ME",
+        "support": 5,
+        "top1_accuracy": 0.6
+      },
+      {
+        "gloss": "MEET",
+        "support": 3,
+        "top1_accuracy": 1.0
+      },
+      {
+        "gloss": "MOTHER",
+        "support": 3,
+        "top1_accuracy": 0.6666666666666666
+      },
+      {
+        "gloss": "MOVIE1",
+        "support": 4,
+        "top1_accuracy": 0.75
+      },
+      {
+        "gloss": "MY",
+        "support": 4,
+        "top1_accuracy": 0.75
+      },
+      {
+        "gloss": "NICE",
+        "support": 3,
+        "top1_accuracy": 1.0
+      },
+      {
+        "gloss": "NO",
+        "support": 3,
+        "top1_accuracy": 0.6666666666666666
+      },
+      {
+        "gloss": "PIZZA2",
+        "support": 3,
+        "top1_accuracy": 1.0
+      },
+      {
+        "gloss": "PLEASE",
+        "support": 4,
+        "top1_accuracy": 0.5
+      },
+      {
+        "gloss": "SCHOOL",
+        "support": 3,
+        "top1_accuracy": 0.6666666666666666
+      },
+      {
+        "gloss": "SICK",
+        "support": 4,
+        "top1_accuracy": 0.75
+      },
+      {
+        "gloss": "SIGN",
+        "support": 4,
+        "top1_accuracy": 1.0
+      },
+      {
+        "gloss": "THANKYOU",
+        "support": 3,
+        "top1_accuracy": 1.0
+      },
+      {
+        "gloss": "TOMORROW",
+        "support": 4,
+        "top1_accuracy": 0.5
+      },
+      {
+        "gloss": "WANT1",
+        "support": 4,
+        "top1_accuracy": 1.0
+      },
+      {
+        "gloss": "WATCH",
+        "support": 4,
+        "top1_accuracy": 0.5
+      },
+      {
+        "gloss": "WATER",
+        "support": 4,
+        "top1_accuracy": 0.75
+      },
+      {
+        "gloss": "WHERE",
+        "support": 4,
+        "top1_accuracy": 0.75
+      },
+      {
+        "gloss": "YES",
+        "support": 5,
+        "top1_accuracy": 0.6
+      },
+      {
+        "gloss": "YESTERDAY",
+        "support": 3,
+        "top1_accuracy": 1.0
+      },
+      {
+        "gloss": "YOU",
+        "support": 4,
+        "top1_accuracy": 0.75
+      }
+    ]
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "training_loss": 3.5733797337062145,
+      "validation": {
+        "loss": 3.2198198302453305,
+        "top1_accuracy": 0.1092436974789916,
+        "top5_accuracy": 0.4117647058823529,
+        "macro_top1_accuracy": 0.10520833333333333,
+        "sample_count": 119,
+        "per_class": [
+          {
+            "gloss": "BATHROOM",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "COFFEE",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "DRINK1",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "EAT1",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "FRIEND",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "GO",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "HELLO",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELP",
+            "support": 5,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "HUNGRY",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "LEARN",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "LIKE",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "ME",
+            "support": 5,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "MEET",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "MOTHER",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "MOVIE1",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "MY",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "NICE",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "NO",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "PIZZA2",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "PLEASE",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "SCHOOL",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "SICK",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "SIGN",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "THANKYOU",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "TOMORROW",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "WANT1",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "WATCH",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "WATER",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "WHERE",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "YES",
+            "support": 5,
+            "top1_accuracy": 0.2
+          },
+          {
+            "gloss": "YESTERDAY",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "YOU",
+            "support": 4,
+            "top1_accuracy": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "epoch": 2,
+      "training_loss": 2.97937880633031,
+      "validation": {
+        "loss": 2.712534800297072,
+        "top1_accuracy": 0.24369747899159663,
+        "top5_accuracy": 0.6134453781512605,
+        "macro_top1_accuracy": 0.25104166666666666,
+        "sample_count": 119,
+        "per_class": [
+          {
+            "gloss": "BATHROOM",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "COFFEE",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "DRINK1",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "EAT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "FRIEND",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "GO",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "HELLO",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELP",
+            "support": 5,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "HUNGRY",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "LEARN",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "LIKE",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "ME",
+            "support": 5,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "MEET",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "MOTHER",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "MOVIE1",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "MY",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "NICE",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "NO",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "PIZZA2",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "PLEASE",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "SCHOOL",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "SICK",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "SIGN",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "THANKYOU",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "TOMORROW",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "WANT1",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "WATCH",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "WATER",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "WHERE",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "YES",
+            "support": 5,
+            "top1_accuracy": 0.2
+          },
+          {
+            "gloss": "YESTERDAY",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "YOU",
+            "support": 4,
+            "top1_accuracy": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "epoch": 3,
+      "training_loss": 2.394642337692007,
+      "validation": {
+        "loss": 2.2759465129435563,
+        "top1_accuracy": 0.2857142857142857,
+        "top5_accuracy": 0.7310924369747899,
+        "macro_top1_accuracy": 0.2838541666666667,
+        "sample_count": 119,
+        "per_class": [
+          {
+            "gloss": "BATHROOM",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "COFFEE",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "DRINK1",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "EAT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "FRIEND",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "GO",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "HELLO",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELP",
+            "support": 5,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "HUNGRY",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "LEARN",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "LIKE",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "ME",
+            "support": 5,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "MEET",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "MOTHER",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "MOVIE1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "MY",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "NICE",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "NO",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "PIZZA2",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "PLEASE",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "SCHOOL",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "SICK",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "SIGN",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "THANKYOU",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "TOMORROW",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "WANT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "WATCH",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "WATER",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "WHERE",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "YES",
+            "support": 5,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "YESTERDAY",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "YOU",
+            "support": 4,
+            "top1_accuracy": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "epoch": 4,
+      "training_loss": 1.979233969769706,
+      "validation": {
+        "loss": 1.955765219295726,
+        "top1_accuracy": 0.40336134453781514,
+        "top5_accuracy": 0.8319327731092437,
+        "macro_top1_accuracy": 0.4083333333333333,
+        "sample_count": 119,
+        "per_class": [
+          {
+            "gloss": "BATHROOM",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "COFFEE",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "DRINK1",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "EAT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "FRIEND",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "GO",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "HELLO",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELP",
+            "support": 5,
+            "top1_accuracy": 0.2
+          },
+          {
+            "gloss": "HUNGRY",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "LEARN",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "LIKE",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "ME",
+            "support": 5,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "MEET",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "MOTHER",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "MOVIE1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "MY",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "NICE",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "NO",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "PIZZA2",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "PLEASE",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "SCHOOL",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "SICK",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "SIGN",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "THANKYOU",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "TOMORROW",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "WANT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "WATCH",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "WATER",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "WHERE",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "YES",
+            "support": 5,
+            "top1_accuracy": 0.2
+          },
+          {
+            "gloss": "YESTERDAY",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YOU",
+            "support": 4,
+            "top1_accuracy": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "epoch": 5,
+      "training_loss": 1.6847689796138454,
+      "validation": {
+        "loss": 1.7280849007999195,
+        "top1_accuracy": 0.4957983193277311,
+        "top5_accuracy": 0.8403361344537815,
+        "macro_top1_accuracy": 0.5104166666666666,
+        "sample_count": 119,
+        "per_class": [
+          {
+            "gloss": "BATHROOM",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "COFFEE",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "DRINK1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "EAT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "FRIEND",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "GO",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "HELLO",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELP",
+            "support": 5,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "HUNGRY",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "LEARN",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "LIKE",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "ME",
+            "support": 5,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "MEET",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "MOTHER",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "MOVIE1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "MY",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "NICE",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "NO",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "PIZZA2",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "PLEASE",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "SCHOOL",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "SICK",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "SIGN",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "THANKYOU",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "TOMORROW",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "WANT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "WATCH",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "WATER",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "WHERE",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "YES",
+            "support": 5,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "YESTERDAY",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YOU",
+            "support": 4,
+            "top1_accuracy": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "epoch": 6,
+      "training_loss": 1.4115263989462425,
+      "validation": {
+        "loss": 1.5705629236557905,
+        "top1_accuracy": 0.5294117647058824,
+        "top5_accuracy": 0.8739495798319328,
+        "macro_top1_accuracy": 0.5385416666666667,
+        "sample_count": 119,
+        "per_class": [
+          {
+            "gloss": "BATHROOM",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "COFFEE",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "DRINK1",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "EAT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "FRIEND",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "GO",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "HELLO",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELP",
+            "support": 5,
+            "top1_accuracy": 0.2
+          },
+          {
+            "gloss": "HUNGRY",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "LEARN",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "LIKE",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "ME",
+            "support": 5,
+            "top1_accuracy": 0.2
+          },
+          {
+            "gloss": "MEET",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "MOTHER",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "MOVIE1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "MY",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "NICE",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "NO",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "PIZZA2",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "PLEASE",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "SCHOOL",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "SICK",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "SIGN",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "THANKYOU",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "TOMORROW",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "WANT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "WATCH",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "WATER",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "WHERE",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "YES",
+            "support": 5,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "YESTERDAY",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YOU",
+            "support": 4,
+            "top1_accuracy": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "epoch": 7,
+      "training_loss": 1.1808444316694493,
+      "validation": {
+        "loss": 1.3065364100352055,
+        "top1_accuracy": 0.5798319327731093,
+        "top5_accuracy": 0.9159663865546218,
+        "macro_top1_accuracy": 0.5916666666666667,
+        "sample_count": 119,
+        "per_class": [
+          {
+            "gloss": "BATHROOM",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "COFFEE",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "DRINK1",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "EAT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "FRIEND",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "GO",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELLO",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELP",
+            "support": 5,
+            "top1_accuracy": 0.2
+          },
+          {
+            "gloss": "HUNGRY",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "LEARN",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "LIKE",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "ME",
+            "support": 5,
+            "top1_accuracy": 0.4
+          },
+          {
+            "gloss": "MEET",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "MOTHER",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "MOVIE1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "MY",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "NICE",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "NO",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "PIZZA2",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "PLEASE",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "SCHOOL",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "SICK",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "SIGN",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "THANKYOU",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "TOMORROW",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "WANT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "WATCH",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "WATER",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "WHERE",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "YES",
+            "support": 5,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "YESTERDAY",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YOU",
+            "support": 4,
+            "top1_accuracy": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "epoch": 8,
+      "training_loss": 0.9687589938576157,
+      "validation": {
+        "loss": 1.288118691003623,
+        "top1_accuracy": 0.6050420168067226,
+        "top5_accuracy": 0.8991596638655462,
+        "macro_top1_accuracy": 0.6125,
+        "sample_count": 119,
+        "per_class": [
+          {
+            "gloss": "BATHROOM",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "COFFEE",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "DRINK1",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "EAT1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "FRIEND",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "GO",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELLO",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELP",
+            "support": 5,
+            "top1_accuracy": 0.4
+          },
+          {
+            "gloss": "HUNGRY",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "LEARN",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "LIKE",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "ME",
+            "support": 5,
+            "top1_accuracy": 0.2
+          },
+          {
+            "gloss": "MEET",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "MOTHER",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "MOVIE1",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "MY",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "NICE",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "NO",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "PIZZA2",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "PLEASE",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "SCHOOL",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "SICK",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "SIGN",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "THANKYOU",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "TOMORROW",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "WANT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "WATCH",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "WATER",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "WHERE",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "YES",
+            "support": 5,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YESTERDAY",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "YOU",
+            "support": 4,
+            "top1_accuracy": 0.75
+          }
+        ]
+      }
+    },
+    {
+      "epoch": 9,
+      "training_loss": 0.8133999516165151,
+      "validation": {
+        "loss": 0.9893187354592716,
+        "top1_accuracy": 0.6722689075630253,
+        "top5_accuracy": 0.9411764705882353,
+        "macro_top1_accuracy": 0.6776041666666667,
+        "sample_count": 119,
+        "per_class": [
+          {
+            "gloss": "BATHROOM",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "COFFEE",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "DRINK1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "EAT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "FRIEND",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "GO",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELLO",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELP",
+            "support": 5,
+            "top1_accuracy": 0.8
+          },
+          {
+            "gloss": "HUNGRY",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "LEARN",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "LIKE",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "ME",
+            "support": 5,
+            "top1_accuracy": 0.6
+          },
+          {
+            "gloss": "MEET",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "MOTHER",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "MOVIE1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "MY",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "NICE",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "NO",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "PIZZA2",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "PLEASE",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "SCHOOL",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "SICK",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "SIGN",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "THANKYOU",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "TOMORROW",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "WANT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "WATCH",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "WATER",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "WHERE",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "YES",
+            "support": 5,
+            "top1_accuracy": 0.2
+          },
+          {
+            "gloss": "YESTERDAY",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YOU",
+            "support": 4,
+            "top1_accuracy": 0.75
+          }
+        ]
+      }
+    },
+    {
+      "epoch": 10,
+      "training_loss": 0.6731682708661174,
+      "validation": {
+        "loss": 0.8923742630902458,
+        "top1_accuracy": 0.7394957983193278,
+        "top5_accuracy": 0.9495798319327731,
+        "macro_top1_accuracy": 0.7515625,
+        "sample_count": 119,
+        "per_class": [
+          {
+            "gloss": "BATHROOM",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "COFFEE",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "DRINK1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "EAT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "FRIEND",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "GO",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "HELLO",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELP",
+            "support": 5,
+            "top1_accuracy": 0.4
+          },
+          {
+            "gloss": "HUNGRY",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "LEARN",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "LIKE",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "ME",
+            "support": 5,
+            "top1_accuracy": 0.6
+          },
+          {
+            "gloss": "MEET",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "MOTHER",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "MOVIE1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "MY",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "NICE",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "NO",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "PIZZA2",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "PLEASE",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "SCHOOL",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "SICK",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "SIGN",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "THANKYOU",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "TOMORROW",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "WANT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "WATCH",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "WATER",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "WHERE",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YES",
+            "support": 5,
+            "top1_accuracy": 0.8
+          },
+          {
+            "gloss": "YESTERDAY",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YOU",
+            "support": 4,
+            "top1_accuracy": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "epoch": 11,
+      "training_loss": 0.537921709602935,
+      "validation": {
+        "loss": 0.9577064193597361,
+        "top1_accuracy": 0.7058823529411765,
+        "top5_accuracy": 0.9747899159663865,
+        "macro_top1_accuracy": 0.7119791666666666,
+        "sample_count": 119,
+        "per_class": [
+          {
+            "gloss": "BATHROOM",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "COFFEE",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "DRINK1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "EAT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "FRIEND",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "GO",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "HELLO",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELP",
+            "support": 5,
+            "top1_accuracy": 0.2
+          },
+          {
+            "gloss": "HUNGRY",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "LEARN",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "LIKE",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "ME",
+            "support": 5,
+            "top1_accuracy": 0.6
+          },
+          {
+            "gloss": "MEET",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "MOTHER",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "MOVIE1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "MY",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "NICE",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "NO",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "PIZZA2",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "PLEASE",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "SCHOOL",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "SICK",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "SIGN",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "THANKYOU",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "TOMORROW",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "WANT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "WATCH",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "WATER",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "WHERE",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YES",
+            "support": 5,
+            "top1_accuracy": 0.4
+          },
+          {
+            "gloss": "YESTERDAY",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YOU",
+            "support": 4,
+            "top1_accuracy": 0.75
+          }
+        ]
+      }
+    },
+    {
+      "epoch": 12,
+      "training_loss": 0.47652734230560967,
+      "validation": {
+        "loss": 0.9644402616164264,
+        "top1_accuracy": 0.7310924369747899,
+        "top5_accuracy": 0.9327731092436975,
+        "macro_top1_accuracy": 0.7291666666666666,
+        "sample_count": 119,
+        "per_class": [
+          {
+            "gloss": "BATHROOM",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "COFFEE",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "DRINK1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "EAT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "FRIEND",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "GO",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "HELLO",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELP",
+            "support": 5,
+            "top1_accuracy": 0.6
+          },
+          {
+            "gloss": "HUNGRY",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "LEARN",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "LIKE",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "ME",
+            "support": 5,
+            "top1_accuracy": 0.4
+          },
+          {
+            "gloss": "MEET",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "MOTHER",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "MOVIE1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "MY",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "NICE",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "NO",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "PIZZA2",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "PLEASE",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "SCHOOL",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "SICK",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "SIGN",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "THANKYOU",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "TOMORROW",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "WANT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "WATCH",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "WATER",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "WHERE",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "YES",
+            "support": 5,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YESTERDAY",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YOU",
+            "support": 4,
+            "top1_accuracy": 0.75
+          }
+        ]
+      }
+    },
+    {
+      "epoch": 13,
+      "training_loss": 0.3670764982065267,
+      "validation": {
+        "loss": 0.9256550604555788,
+        "top1_accuracy": 0.6890756302521008,
+        "top5_accuracy": 0.9411764705882353,
+        "macro_top1_accuracy": 0.7067708333333333,
+        "sample_count": 119,
+        "per_class": [
+          {
+            "gloss": "BATHROOM",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "COFFEE",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "DRINK1",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "EAT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "FRIEND",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "GO",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "HELLO",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELP",
+            "support": 5,
+            "top1_accuracy": 0.6
+          },
+          {
+            "gloss": "HUNGRY",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "LEARN",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "LIKE",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "ME",
+            "support": 5,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "MEET",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "MOTHER",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "MOVIE1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "MY",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "NICE",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "NO",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "PIZZA2",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "PLEASE",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "SCHOOL",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "SICK",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "SIGN",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "THANKYOU",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "TOMORROW",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "WANT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "WATCH",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "WATER",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "WHERE",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "YES",
+            "support": 5,
+            "top1_accuracy": 0.6
+          },
+          {
+            "gloss": "YESTERDAY",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YOU",
+            "support": 4,
+            "top1_accuracy": 0.75
+          }
+        ]
+      }
+    },
+    {
+      "epoch": 14,
+      "training_loss": 0.3475670074877521,
+      "validation": {
+        "loss": 0.8302233519674349,
+        "top1_accuracy": 0.7478991596638656,
+        "top5_accuracy": 0.9411764705882353,
+        "macro_top1_accuracy": 0.7619791666666667,
+        "sample_count": 119,
+        "per_class": [
+          {
+            "gloss": "BATHROOM",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "COFFEE",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "DRINK1",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "EAT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "FRIEND",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "GO",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELLO",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELP",
+            "support": 5,
+            "top1_accuracy": 0.6
+          },
+          {
+            "gloss": "HUNGRY",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "LEARN",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "LIKE",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "ME",
+            "support": 5,
+            "top1_accuracy": 0.6
+          },
+          {
+            "gloss": "MEET",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "MOTHER",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "MOVIE1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "MY",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "NICE",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "NO",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "PIZZA2",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "PLEASE",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "SCHOOL",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "SICK",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "SIGN",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "THANKYOU",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "TOMORROW",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "WANT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "WATCH",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "WATER",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "WHERE",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "YES",
+            "support": 5,
+            "top1_accuracy": 0.6
+          },
+          {
+            "gloss": "YESTERDAY",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YOU",
+            "support": 4,
+            "top1_accuracy": 0.75
+          }
+        ]
+      }
+    },
+    {
+      "epoch": 15,
+      "training_loss": 0.24068169267518977,
+      "validation": {
+        "loss": 1.1578623386992126,
+        "top1_accuracy": 0.6890756302521008,
+        "top5_accuracy": 0.9327731092436975,
+        "macro_top1_accuracy": 0.7026041666666667,
+        "sample_count": 119,
+        "per_class": [
+          {
+            "gloss": "BATHROOM",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "COFFEE",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "DRINK1",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "EAT1",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "FRIEND",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "GO",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "HELLO",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "HELP",
+            "support": 5,
+            "top1_accuracy": 0.6
+          },
+          {
+            "gloss": "HUNGRY",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "LEARN",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "LIKE",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "ME",
+            "support": 5,
+            "top1_accuracy": 0.4
+          },
+          {
+            "gloss": "MEET",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "MOTHER",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "MOVIE1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "MY",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "NICE",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "NO",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "PIZZA2",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "PLEASE",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "SCHOOL",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "SICK",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "SIGN",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "THANKYOU",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "TOMORROW",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "WANT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "WATCH",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "WATER",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "WHERE",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YES",
+            "support": 5,
+            "top1_accuracy": 0.4
+          },
+          {
+            "gloss": "YESTERDAY",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YOU",
+            "support": 4,
+            "top1_accuracy": 0.75
+          }
+        ]
+      }
+    },
+    {
+      "epoch": 16,
+      "training_loss": 0.2398376839541348,
+      "validation": {
+        "loss": 0.8985144430849733,
+        "top1_accuracy": 0.7478991596638656,
+        "top5_accuracy": 0.957983193277311,
+        "macro_top1_accuracy": 0.7526041666666666,
+        "sample_count": 119,
+        "per_class": [
+          {
+            "gloss": "BATHROOM",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "COFFEE",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "DRINK1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "EAT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "FRIEND",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "GO",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "HELLO",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELP",
+            "support": 5,
+            "top1_accuracy": 0.6
+          },
+          {
+            "gloss": "HUNGRY",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "LEARN",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "LIKE",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "ME",
+            "support": 5,
+            "top1_accuracy": 0.6
+          },
+          {
+            "gloss": "MEET",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "MOTHER",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "MOVIE1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "MY",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "NICE",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "NO",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "PIZZA2",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "PLEASE",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "SCHOOL",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "SICK",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "SIGN",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "THANKYOU",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "TOMORROW",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "WANT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "WATCH",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "WATER",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "WHERE",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "YES",
+            "support": 5,
+            "top1_accuracy": 0.8
+          },
+          {
+            "gloss": "YESTERDAY",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YOU",
+            "support": 4,
+            "top1_accuracy": 0.75
+          }
+        ]
+      }
+    },
+    {
+      "epoch": 17,
+      "training_loss": 0.17773561068111546,
+      "validation": {
+        "loss": 1.113033943817395,
+        "top1_accuracy": 0.7226890756302521,
+        "top5_accuracy": 0.9411764705882353,
+        "macro_top1_accuracy": 0.7390625,
+        "sample_count": 119,
+        "per_class": [
+          {
+            "gloss": "BATHROOM",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "COFFEE",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "DRINK1",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "EAT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "FRIEND",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "GO",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELLO",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELP",
+            "support": 5,
+            "top1_accuracy": 0.6
+          },
+          {
+            "gloss": "HUNGRY",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "LEARN",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "LIKE",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "ME",
+            "support": 5,
+            "top1_accuracy": 0.4
+          },
+          {
+            "gloss": "MEET",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "MOTHER",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "MOVIE1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "MY",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "NICE",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "NO",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "PIZZA2",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "PLEASE",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "SCHOOL",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "SICK",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "SIGN",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "THANKYOU",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "TOMORROW",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "WANT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "WATCH",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "WATER",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "WHERE",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YES",
+            "support": 5,
+            "top1_accuracy": 0.4
+          },
+          {
+            "gloss": "YESTERDAY",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YOU",
+            "support": 4,
+            "top1_accuracy": 0.75
+          }
+        ]
+      }
+    },
+    {
+      "epoch": 18,
+      "training_loss": 0.17756161347744123,
+      "validation": {
+        "loss": 1.1116216883939856,
+        "top1_accuracy": 0.7226890756302521,
+        "top5_accuracy": 0.9411764705882353,
+        "macro_top1_accuracy": 0.7333333333333333,
+        "sample_count": 119,
+        "per_class": [
+          {
+            "gloss": "BATHROOM",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "COFFEE",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "DRINK1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "EAT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "FRIEND",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "GO",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELLO",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELP",
+            "support": 5,
+            "top1_accuracy": 0.6
+          },
+          {
+            "gloss": "HUNGRY",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "LEARN",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "LIKE",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "ME",
+            "support": 5,
+            "top1_accuracy": 0.4
+          },
+          {
+            "gloss": "MEET",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "MOTHER",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "MOVIE1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "MY",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "NICE",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "NO",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "PIZZA2",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "PLEASE",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "SCHOOL",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "SICK",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "SIGN",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "THANKYOU",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "TOMORROW",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "WANT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "WATCH",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "WATER",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "WHERE",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YES",
+            "support": 5,
+            "top1_accuracy": 0.8
+          },
+          {
+            "gloss": "YESTERDAY",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YOU",
+            "support": 4,
+            "top1_accuracy": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "epoch": 19,
+      "training_loss": 0.1964130697311086,
+      "validation": {
+        "loss": 0.9748887815395323,
+        "top1_accuracy": 0.7142857142857143,
+        "top5_accuracy": 0.957983193277311,
+        "macro_top1_accuracy": 0.709375,
+        "sample_count": 119,
+        "per_class": [
+          {
+            "gloss": "BATHROOM",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "COFFEE",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "DRINK1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "EAT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "FRIEND",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "GO",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELLO",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELP",
+            "support": 5,
+            "top1_accuracy": 0.6
+          },
+          {
+            "gloss": "HUNGRY",
+            "support": 4,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "LEARN",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "LIKE",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "ME",
+            "support": 5,
+            "top1_accuracy": 0.6
+          },
+          {
+            "gloss": "MEET",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "MOTHER",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "MOVIE1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "MY",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "NICE",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "NO",
+            "support": 3,
+            "top1_accuracy": 0.0
+          },
+          {
+            "gloss": "PIZZA2",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "PLEASE",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "SCHOOL",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "SICK",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "SIGN",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "THANKYOU",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "TOMORROW",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "WANT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "WATCH",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "WATER",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "WHERE",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "YES",
+            "support": 5,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YESTERDAY",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "YOU",
+            "support": 4,
+            "top1_accuracy": 0.75
+          }
+        ]
+      }
+    },
+    {
+      "epoch": 20,
+      "training_loss": 0.15576203550810377,
+      "validation": {
+        "loss": 0.9985297187035825,
+        "top1_accuracy": 0.7563025210084033,
+        "top5_accuracy": 0.9495798319327731,
+        "macro_top1_accuracy": 0.7640625,
+        "sample_count": 119,
+        "per_class": [
+          {
+            "gloss": "BATHROOM",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "COFFEE",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "DRINK1",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "EAT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "FRIEND",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "GO",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELLO",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "HELP",
+            "support": 5,
+            "top1_accuracy": 0.6
+          },
+          {
+            "gloss": "HUNGRY",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "LEARN",
+            "support": 4,
+            "top1_accuracy": 0.25
+          },
+          {
+            "gloss": "LIKE",
+            "support": 3,
+            "top1_accuracy": 0.3333333333333333
+          },
+          {
+            "gloss": "ME",
+            "support": 5,
+            "top1_accuracy": 0.6
+          },
+          {
+            "gloss": "MEET",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "MOTHER",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "MOVIE1",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "MY",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "NICE",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "NO",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "PIZZA2",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "PLEASE",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "SCHOOL",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "SICK",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "SIGN",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "THANKYOU",
+            "support": 3,
+            "top1_accuracy": 0.6666666666666666
+          },
+          {
+            "gloss": "TOMORROW",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "WANT1",
+            "support": 4,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "WATCH",
+            "support": 4,
+            "top1_accuracy": 0.5
+          },
+          {
+            "gloss": "WATER",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "WHERE",
+            "support": 4,
+            "top1_accuracy": 0.75
+          },
+          {
+            "gloss": "YES",
+            "support": 5,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YESTERDAY",
+            "support": 3,
+            "top1_accuracy": 1.0
+          },
+          {
+            "gloss": "YOU",
+            "support": 4,
+            "top1_accuracy": 0.75
+          }
+        ]
+      }
+    }
+  ],
+  "checkpoint": "best_model.pt"
+}

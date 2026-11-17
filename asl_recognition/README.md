@@ -1,37 +1,40 @@
 # ASL Recognition Research
 
-This module contains exploratory computer-vision work for a possible future ASL-accessibility feature in **Own Your Voice**.
+This directory contains the machine-learning and computer-vision research for the ASL recognition component of Own Your Voice.
 
-## Current scope
+## Development Stages
 
-- Isolated-sign recognition experiments
-- ASL Citizen pilot evaluation
-- Signer-independent evaluation
-- Feature-extraction and model-results visualization
-- Research into public ASL datasets
+### Stage 1
+The first pilot evaluated isolated-sign recognition using a selected 32-class ASL Citizen subset.
 
-## Current pilot result scope
+Research included:
 
-The included results package reports a selected **32-class ASL Citizen pilot**. The frozen official-test subset contains 388 clips. This is not a full-dataset evaluation and does not demonstrate continuous sentence-level ASL translation.
+- MediaPipe landmark extraction
+- CNN + Transformer classification
+- signer-independent evaluation
+- feature compression
+- automated engineering tests
 
-## Files
+### Dev Stage 2
+Stage 2 expanded the project toward sentence-level recognition.
 
-- `scripts/generate_results_figures.py` — regenerates result charts from the embedded pilot summary values.
-- `results/asl_citizen_results.pptx` — results presentation.
-- `results/RESULTS_PRESENTATION_README.md` — source notes and reported metrics.
-- `results/figures/` — regenerated charts.
+The team:
 
-## Run the figure generator
+- processed the full ASL Citizen official splits into landmarks
+- trained a new 32-sign isolated model
+- developed a CTC sentence model
+- tested synthetic stitched sentences
+- evaluated contextual correction using Claude
+- tested reconstruction of potentially missed signs
 
-```bash
-python -m pip install -r asl_recognition/requirements.txt
-python asl_recognition/scripts/generate_results_figures.py --out asl_recognition/results/figures
-```
+See:
 
-## Project integration
+`devstage2/Results Explained - Dev Stage 2.md`
 
-Treat ASL recognition as a separate experimental module. The first Own Your Voice prototype can remain focused on:
+## Important Limitation
 
-**Interviewer speech → speech-to-text → applicant reads → applicant types → text-to-speech → interviewer hears**
+Current sentence results use synthetic sentences created from isolated-sign clips.
 
-ASL recognition can be evaluated later as an additional input mode once its accuracy, latency, and user experience are sufficiently validated.
+They do not yet establish accuracy on naturally signed continuous ASL.
+
+Testing with real continuous-ASL video remains an important next step.

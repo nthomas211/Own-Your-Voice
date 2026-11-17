@@ -11,7 +11,7 @@ _ASL recognition project · results as of 13 November 2026_
 - **Claude can fill in some missed signs, but carefully.** Filling timing gaps cut sign errors further to 10%, but the meaning of the English barely improved yet.
 - **These are early, optimistic numbers.** The test sentences were built by joining single-sign videos, and the official test set has not been used yet (on purpose).
 
-![The November run at a glance.](08_new_run_scorecard.png)
+![The November run at a glance.](../figures/08_new_run_scorecard.png)
 _The November run at a glance._
 
 ## 2. What the system does
@@ -42,7 +42,7 @@ The full pipeline, which now runs end to end in the class demo:
 - Re-running it gives exactly the same numbers every time, which the old method did not.
 - All three splits are saved on the lab PC, so nothing is lost when the cloud lease ends.
 
-![Processing time, old method vs new.](chart_1_extraction_speed.png)
+![Processing time, old method vs new.](../figures/chart_1_extraction_speed.png)
 _Processing time, old method vs new._
 
 ### 3.2 One sign at a time
@@ -57,7 +57,7 @@ The model sees one short clip and picks which of 32 signs it is. The 32 signs ar
 
 **Why lower than the old pilot?** The two runs used different sets of 32 signs. The pilot's signs were picked to be easy to tell apart (that list was later lost). The new set was chosen to build sentences and includes short, look-alike signs such as ME, YOU, MY, WANT and LIKE. It is a harder list, not a worse method.
 
-![One-sign model, old pilot vs new run.](09_isolated_old_vs_new.png)
+![One-sign model, old pilot vs new run.](../figures/09_isolated_old_vs_new.png)
 _One-sign model, old pilot vs new run._
 
 ### 3.3 Whole sentences
@@ -76,10 +76,10 @@ _* Best case: the one-sign model shown each sign's own clip, as if the sentence 
 - The two common mistakes are **saying a sign twice** (ME ME WANT …), which is easy to clean up, and **skipping a sign** ("Do you like coffee?" → YOU COFFEE), which loses meaning.
 - Easiest sentence: "Where is the bathroom?" Hardest: "Thank you for helping me."
 
-![Sentence model from scratch vs with a head start.](10_sentence_models.png)
+![Sentence model from scratch vs with a head start.](../figures/10_sentence_models.png)
 _Sentence model from scratch vs with a head start._
 
-![Errors for each of the 10 sentences.](chart_4_per_sentence_errors.png)
+![Errors for each of the 10 sentences.](../figures/chart_4_per_sentence_errors.png)
 _Errors for each of the 10 sentences._
 
 ### 3.4 Claude chooses the signs
@@ -96,7 +96,7 @@ Claude sees only the detected signs and the model's top-5 guesses with their pro
 - The "duplicate sign" rule tells Claude that two identical signs in a row are usually one sign detected twice. It was written after looking at these same validation sentences, so the last row is slightly optimistic.
 - Cost: about half a cent and 2 seconds per sentence.
 
-![What the Claude step adds.](11_llm_step.png)
+![What the Claude step adds.](../figures/11_llm_step.png)
 _What the Claude step adds._
 
 ### 3.5 Filling in signs the model missed
@@ -113,7 +113,7 @@ Signs normally arrive about 45 video frames apart (measured on training sentence
 - The meaning grade barely moved: often the right sign was added but the English stayed stiff ("My friend is [learning] sign" was judged only partly right), or two signs were missing and only one came back.
 - The gap detector is useful but rough: it caught 15 of 23 sentences that really had a missing sign, and falsely flagged 12 complete ones (Claude correctly added nothing to most of those).
 
-![Filling in missed signs: sign errors vs meaning.](12_reconstruction.png)
+![Filling in missed signs: sign errors vs meaning.](../figures/12_reconstruction.png)
 _Filling in missed signs: sign errors vs meaning._
 
 ### 3.6 The class demo
